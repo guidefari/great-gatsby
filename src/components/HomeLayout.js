@@ -3,12 +3,12 @@ import React from "react";
 
 import Header from "./header";
 
-function Layout({ children }) {
+function HomeLayout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-gray-700">
+    <div className="flex flex-col font-sans text-gray-900 bg-gray-700">
       <Header />
 
-      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <main className="flex-1 w-full max-w-full px-4 py-8 mx-auto md:py-16">
         {children}
       </main>
 
@@ -27,8 +27,8 @@ function Layout({ children }) {
   );
 }
 
-Layout.propTypes = {
+HomeLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default HomeLayout;
