@@ -1,279 +1,188 @@
 import { createGlobalStyle } from 'styled-components';
-import theme from './theme';
-import media from './media';
-import mixins from './mixins';
+// import theme from './theme';
+// import media from './media';
+// import mixins from './mixins';
 import FontFaces from './fonts';
-import TransitionStyles from './TransitionStyles';
-import PrismStyles from './PrismStyles';
-const { colors, fontSizes, fonts } = theme;
+// import TransitionStyles from './TransitionStyles';
+// import PrismStyles from './PrismStyles';
+// const { colors, fontSizes, fonts } = theme;
 
 const GlobalStyle = createGlobalStyle`
   ${FontFaces};
 
-  html {
-    box-sizing: border-box;
-    width: 100%;
+  :root {
+    --yellow: #ffc600;
+    --light: #ffffff;
+    --dark: #000000;
+    --lightGrey: #d8d8d8;
+    --lightGray: var(--lightGrey);
+    --imGoingToFaint: #fbfbfb;
+    --maxWidth: 1200px;
   }
-
-  *,
-  *:before,
-  *:after {
+  html {
+    --size: 40px;
+    @media(max-width: 800px) {
+      --size: 20px;
+    }
+    --borderSize: calc(var(--size) / 2);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    border: var(--borderSize) solid var(--dark);
+    border-color: var(--dark);
+   
+    font-size: 10px;
+    font-family: 'HCo Operator Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    color: var(--dark);
+    &:after {
+      box-sizing: content-box;
+      display: block;
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: calc(var(--borderSize) * -1);
+      left: calc(var(--borderSize) * -1);
+      z-index: -3;
+      border: var(--borderSize) solid var(--dark);
+      background: var(--light);
+    }
+    &:before {
+      box-sizing: content-box;
+      display: block;
+      content: '';
+      height: calc(100% - var(--size));
+      width: calc(100% - var(--size));
+      position: absolute;
+      top: calc(var(--size) * -0.5);
+      left: calc(var(--size) * -0.5);
+      z-index: -1;
+      border: var(--size) solid transparent;
+      
+      background-size: 250px; */
+    }
+  }
+  body {
+    min-height: calc(100vh - 40px);
+    font-size: 2rem;
+  }
+  *, *:before, *:after {
     box-sizing: inherit;
   }
 
-  body {
-    margin: 0;
-    width: 100%;
-    min-height: 100%;
-    overflow-x: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    background-color: ${colors.navy};
-    color: ${colors.slate};
-    line-height: 1.3;
-    font-family: ${fonts.Calibre};
-    font-size: ${fontSizes.xl};
-    ${media.phablet`font-size: ${fontSizes.lg};`}
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'radnika', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  a {
+    color: var(--dark);
+  }
+  p, ul, ol {
+    line-height: 1.77777777777777776777777777;
+    font-weight: 400;
+  }
+  ul {
+    list-style-type: square;
+  }
 
-    &.hidden {
-      overflow: hidden;
+  p a, li a {
+    --rotate: -2deg;
+    --scaleX: 1;
+    /* display: inline-flex; */
+    position: relative;
+    &:before {
+      /* display: inline-block; */
+      height: 5px;
+      position: absolute;
+      background: var(--yellow);
+      content: '';
+      width: 100%;
+      bottom: -2px;
+      z-index: -1;
+      transition: transform 0.1s;
+      transform: skew(-20deg) rotate(var(--rotate)) scaleX(var(--scaleX));
     }
-    &.blur {
-      overflow: hidden;
-      #root > #content > * {
-        filter: blur(5px) brightness(0.7);
-        transition: ${theme.transition};
-        pointer-events: none;
-        user-select: none;
-      }
+    &:hover {
+      --scaleX: 1.03;
     }
   }
 
-  ::selection {
-    background-color: ${colors.slate};
-    color: ${colors.lightestSlate};
+  p a:nth-child(4n+1) { --rotate: -2deg; }
+  p a:nth-child(4n+2) { --rotate: 1.64deg; }
+  p a:nth-child(4n+3) { --rotate: 0.6deg; }
+  p a:nth-child(4n+4) { --rotate: -0.75deg; }
+
+  :not(pre) > code {
+    background: #f6f6f6;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 0 3.5px;
   }
 
-  #root {
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    grid-template-columns: 100%;
+  pre[data-language] {
+    border-radius: 0;
+    padding: 3rem;
+    width: 110%;
+    margin-left: -5%;
+    line-height: 1.5;
+
+  }
+  pre {
+    white-space: break-spaces;
+  }
+  code, kbd, samp {
+    font-family: 'HCo Operator Mono';
+    font-weight: 300;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 600;
-    color: ${colors.lightestSlate};
-    margin: 0 0 10px 0;
+  video {
+    max-width: 100%;
   }
 
-  h1 {
-    &.big-title {
-      font-size: 80px;
-      line-height: 1.1;
-      margin: 0;
-      ${media.desktop`font-size: 70px;`};
-      ${media.tablet`font-size: 60px;`};
-      ${media.phablet`font-size: 50px;`};
-      ${media.phone`font-size: 40px;`};
-    }
-
-    &.medium-title {
-      font-size: 60px;
-      line-height: 1.1;
-      margin: 0;
-      ${media.desktop`font-size: 50px;`};
-      ${media.tablet`font-size: 40px;`};
+  @media (min-width:2500px) {
+    body:after {
+      content: 'Wow you have a big monitor!';
+      display: block;
+      position: fixed;
+      top: 0;
+      bottom:0;
+      right: 3rem;
+      font-size: 6.5vh;
+      pointer-events: none;
+      transform: rotate(90deg);
+      text-shadow: 3px 3px 0 white;
     }
   }
 
   img {
-    width: 100%;
     max-width: 100%;
-    vertical-align: middle;
   }
-
-  img[alt=""],
-  img:not([alt]) {
-    filter: blur(5px);
+  .highlight {
+    
+    background-color: var(--yellow);
+    background-size: 500px;
+    padding: 5px;
   }
-
-  svg {
-    width: 100%;
-    height: 100%;
-    fill: currentColor;
-    vertical-align: middle;
+  ::selection {
+    background: var(--yellow);
   }
-
-  a {
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    color: inherit;
-    position: relative;
-    transition: ${theme.transition};
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-      color: ${colors.green};
-    }
+  /* Scrollbar Styles */
+    body::-webkit-scrollbar {
+    width: 12px;
   }
-
-  button {
-    cursor: pointer;
-    border: 0;
-    border-radius: 0;
-
-    &:focus,
-    &:active {
-      outline-color: ${colors.lightblue};
-    }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--yellow) var(--dark);
   }
-
-  input, textarea {
-    border-radius: 0;
-    outline: 0;
-
-    &:focus {
-      outline: 0;
-    }
-    &::placeholder {
-    }
-    &:focus,
-    &:active {
-      &::placeholder {
-        opacity: 0.5;
-      }
-    }
+  body::-webkit-scrollbar-track {
+    background: var(--dark);
   }
-
-  p {
-    margin: 0 0 15px 0;
-
-    & > a {
-      ${mixins.inlineLink};
-    }
-
-    & > code {
-      background-color: ${colors.lightNavy};
-      color: ${colors.white};
-      font-size: ${fontSizes.sm};
-      border-radius: ${theme.borderRadius};
-      padding: 0.3em 0.5em;
-    }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--yellow) ;
+    border-radius: 6px;
+    border: 3px solid var(--dark);
   }
-
-  ul {
-    &.fancy-list {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      font-size: ${fontSizes.lg};
-      li {
-        position: relative;
-        padding-left: 30px;
-        margin-bottom: 10px;
-        &:before {
-          content: '▹';
-          position: absolute;
-          left: 0;
-          color: ${colors.green};
-        }
-      }
-    }
-  }
-
-  blockquote {
-    border-left-color: ${colors.green};
-    border-left-style: solid;
-    border-left-width: 1px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 1.5rem;
-
-    p {
-      font-style: italic;
-      font-size: 24px;
-    }
-  }
-
-  hr {
-    background-color: ${colors.lightestNavy};
-    height: 1px;
-    border-width: 0px;
-    border-style: initial;
-    border-color: initial;
-    border-image: initial;
-    margin: 1rem;
-  }
-
-  code {
-    font-family: ${fonts.SFMono};
-    font-size: ${fontSizes.md};
-  }
-
-  #logo {
-    color: ${colors.green};
-  }
-
-  .overline {
-    color: ${colors.green};
-    font-family: ${fonts.SFMono};
-    font-size: ${fontSizes.md};
-    font-weight: normal;
-  }
-
-  .subtitle {
-    color: ${colors.green};
-    margin: 0 0 20px 0;
-    font-size: ${fontSizes.md};
-    font-family: ${fonts.SFMono};
-    font-weight: normal;
-    line-height: 1.5;
-    ${media.desktop`font-size: ${fontSizes.sm};`};
-    ${media.tablet`font-size: ${fontSizes.smish};`};
-
-    a {
-      ${mixins.inlineLink};
-      line-height: 1.5;
-    }
-  }
-
-  .breadcrumb {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    color: ${colors.green};
-
-    .arrow {
-      display: block;
-      margin-right: 10px;
-      padding-top: 4px;
-    }
-    a {
-      ${mixins.inlineLink};
-      font-family: ${fonts.SFMono};
-      font-size: ${fontSizes.sm};
-      font-weight: bold;
-      line-height: 1.5;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-  }
-
-  .gatsby-image-outer-wrapper {
-    height: 100%;
-  }
-
-  ${TransitionStyles};
-
-  ${PrismStyles};
 `;
 
 export default GlobalStyle;
