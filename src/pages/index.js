@@ -1,11 +1,14 @@
 import React from "react";
-
+// import graphql from 'gatsby'
+import PropTypes from 'prop-types'
 import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
 import Hero from "../images/space.svg";
-import Feature from "../templates/featureContainer";
+// import Feature from "../templates/featureContainer";
 
-function IndexPage() {
+
+function IndexPage({data}) {
+  console.log(data)
   return (
     <HomeLayout>
       <SEO
@@ -27,13 +30,33 @@ function IndexPage() {
           <br/>
           <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-yellow-400"> Web Development & Music </h3>
         </div>
-        <Feature
+        {/* <Feature
         bigHead="Featured Web Projects"
         smallHead="Portfolio"
-        />
+        data={data.allFile.edges}
+        /> */}
       </section>
     </HomeLayout>
   );
 }
 
+IndexPage.propTypes = {
+  data: PropTypes.array,
+};
+
 export default IndexPage;
+
+// export const pageQuery = graphql`
+// query {
+//     allFile {
+//       edges {
+//         node {
+//           relativePath
+//           prettySize
+//           extension
+//           birthTime(fromNow: true)
+//         }
+//       }
+//     }
+//   } 
+// `

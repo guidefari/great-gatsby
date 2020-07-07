@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from "prop-types";
+import PortfolioCard from "../components/featuredItems/portfolioCard";
 
-const featureContainer = ({bigHead, smallHead}) => (
+const featureContainer = ({bigHead, smallHead, data}) => (
     <section className="pb-24 text-gray-870 body-font border-gray-200 w-full ">
         <div className="flex flex-col mt-24 text-center w-full mb-20">
             <h2 className="text-xs text-orange-400 tracking-widest font-medium title-font mb-1 uppercase">{smallHead}</h2>
@@ -10,7 +11,7 @@ const featureContainer = ({bigHead, smallHead}) => (
         
         <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
             <div className="p-4 min-w-full flex md:min-w-3xl ">
-                <div>Card goes here</div>
+                <PortfolioCard data={ data.allFile.edges }/> 
             </div>
         </div>
     </section>
@@ -19,6 +20,9 @@ const featureContainer = ({bigHead, smallHead}) => (
 featureContainer.propTypes = {
         bigHead: PropTypes.string,
         smallHead: PropTypes.string,
+        data: PropTypes.object,
       };
 
 export default featureContainer
+
+
