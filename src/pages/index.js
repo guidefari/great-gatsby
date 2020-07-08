@@ -1,5 +1,5 @@
 import React from "react";
-// import graphql from 'gatsby'
+ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
@@ -36,7 +36,7 @@ function IndexPage({data}) {
         data={data.allFile.edges}
         /> */}
       </section>
-        
+
 
       <section id="Contact" className="featured flex flex-row justify-center text-gray-870 body-font border-gray-200 mb-24">
       <div classNames="inline-block mx-auto text-center w-8 p-5 rounded-lg">
@@ -56,17 +56,23 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-// export const pageQuery = graphql`
-// query {
-//     allFile {
-//       edges {
-//         node {
-//           relativePath
-//           prettySize
-//           extension
-//           birthTime(fromNow: true)
-//         }
-//       }
-//     }
-//   } 
-// `
+ export const Query = graphql`
+ query IndexQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/"}}) {
+    edges {
+      node {
+        id
+        frontmatter {
+          path
+          title
+          logo
+          external
+          showInProjects
+          tech
+        }
+      }
+    }
+  }
+}
+
+ `
