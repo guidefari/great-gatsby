@@ -13,6 +13,17 @@ author: "GT Fari"
 ##### h5 Heading
 ###### h6 Heading
 
+```js
+const person = {
+  first: 'Wes',
+  last: 'Bos',
+  country: 'Canada',
+  city: 'Hamilton',
+  twitter: '@wesbos'
+};
+const first = person.first;
+const last = person.last;
+```
 
 ## Horizontal Rules
 

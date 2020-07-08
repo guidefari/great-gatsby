@@ -2,11 +2,14 @@ import React from 'react'
 import { graphql, } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from "../components/layout";
-import styled from 'styled-components';
-import  GlobalStyle  from '../styles/GlobalStyle.js';
+// import styled from 'styled-components';
+// import  GlobalStyle  from '../styles/GlobalStyle.js';
+// import '../css/new.css'
+import '../css/style.css'
 
+// import '../css/newone.css'
 
-const StyledPostContent = styled.div`
+// const StyledPostContent = styled.div`
 //   margin-bottom: 100px;
 //   h1, h2, h3 {
 //     margin: 0 0 0.35em;
@@ -44,7 +47,7 @@ const StyledPostContent = styled.div`
 //     margin: 10% auto;
 //   }
  
-`
+//`
 
 export default function Template({data}) {
     const post = data.markdownRemark
@@ -52,11 +55,11 @@ export default function Template({data}) {
     return(
         <Layout>
         <div>
-        <GlobalStyle />
+        {/* <GlobalStyle /> */}
             {/* <Link to="/webdev">Go Back</Link>
             <hr/> */}
             <h1 className='text-3xl mb-5'>{post.frontmatter.title}</h1>
-            <StyledPostContent className='danger' dangerouslySetInnerHTML={{__html: post.html}}/>
+            <div className='danger' dangerouslySetInnerHTML={{__html: post.html}}/>
         </div>
         </Layout>
     )

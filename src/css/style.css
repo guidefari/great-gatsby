@@ -14,8 +14,24 @@ h1 {
     @apply text-blue-600 underline;
   }
 
+  
+
 @tailwind components;
 /*! purgecss end ignore */
 
 @tailwind utilities;
 
+/* @font-face {
+    font-family: 'Circular' ;
+    src: url(/src/fonts/Circular/CircularStd-Black.otf);
+  }
+  @font-face {
+    font-family: 'Circular';
+    src: url(/src/fonts/Circular/CircularStd-Medium.otf);
+  } */
+
+
+
+  body {
+    font-family: 'Circular';
+}
