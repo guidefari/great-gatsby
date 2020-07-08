@@ -6,7 +6,7 @@ import Header from "./header";
 
 function HomeLayout({ children }) {
   return (
-    <div className="flex flex-col font- text-gray-900 bg-gray-700 min-h-screen">
+    <div className="flex flex-col font-circular-black text-gray-900 bg-gray-700 min-h-screen">
       <Header />
 
       <main className="flex-1 w-full max-w-full px-4 py-8 mx-auto md:py-16">

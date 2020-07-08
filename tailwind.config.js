@@ -248,7 +248,6 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
-      circular: 'Circular-Bold'
     },
     fontSize: {
       xs: '0.75rem',
