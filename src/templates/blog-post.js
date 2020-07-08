@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Layout from "../components/layout";
 // import styled from 'styled-components';
 // import  GlobalStyle  from '../styles/GlobalStyle.js';
-// import '../css/new.css'
+
 // import '../css/style.css'
 
 // import '../css/newone.css'
