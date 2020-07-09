@@ -1,7 +1,7 @@
 ---
 path: '/1'
 title: 'Goosebumps'
-logo: './goose.png'
+logo: '/goose.png'
 external: 'https://goosebumps.co.zw/about'
 tech:
   - Figma
