@@ -1,6 +1,6 @@
 ---
 path: '/3'
-title: 'Goosebumps'
+title: 'Furnitures 2 Suit'
 logo: './goose.png'
 external: 'https://goosebumps.co.zw/about'
 tech:

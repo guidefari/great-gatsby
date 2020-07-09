@@ -1,6 +1,6 @@
 ---
 path: '/4'
-title: 'Goosebumps'
+title: 'Mineazy'
 logo: './goose.png'
 external: 'https://goosebumps.co.zw/about'
 tech:

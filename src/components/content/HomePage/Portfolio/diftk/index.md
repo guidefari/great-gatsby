@@ -1,6 +1,6 @@
 ---
 path: '/2'
-title: 'Goosebumps'
+title: 'DIFTK'
 logo: './goose.png'
 external: 'https://goosebumps.co.zw/about'
 tech:

@@ -10,9 +10,9 @@ const featureContainer = ({bigHead, smallHead, data}) => (
         </div>
         
         <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
-            <div className="p-4 min-w-full flex md:min-w-3xl ">
+            
                 <PortfolioCard data={ data }/> 
-            </div>
+            
         </div>
     </section>
     )
