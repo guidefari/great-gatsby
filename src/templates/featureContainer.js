@@ -9,7 +9,7 @@ const featureContainer = ({bigHead, smallHead, data}) => (
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">{bigHead}</h1>
         </div>
         
-        <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
+        <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch ">
             
                 <PortfolioCard data={ data }/> 
             
