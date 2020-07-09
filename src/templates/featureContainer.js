@@ -11,7 +11,7 @@ const featureContainer = ({bigHead, smallHead, data}) => (
         
         <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
             <div className="p-4 min-w-full flex md:min-w-3xl ">
-                <PortfolioCard data={ data.allMarkdownRemark.edges }/> 
+                <PortfolioCard data={ data }/> 
             </div>
         </div>
     </section>
@@ -20,7 +20,7 @@ const featureContainer = ({bigHead, smallHead, data}) => (
 featureContainer.propTypes = {
         bigHead: PropTypes.string,
         smallHead: PropTypes.string,
-        data: PropTypes.array,
+        data: PropTypes.object,
       };
 
 export default featureContainer

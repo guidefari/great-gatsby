@@ -62,6 +62,7 @@ query IndexQuery {
     edges {
       node {
         id
+        html
         frontmatter {
           path
           title
