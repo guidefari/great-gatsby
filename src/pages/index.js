@@ -39,11 +39,11 @@ function IndexPage({data}) {
 
 
       <section id="Contact" className="featured flex flex-row justify-center text-gray-870 body-font border-gray-200 mb-24">
-      <div classNames="inline-block mx-auto text-center w-8 p-5 rounded-lg">
+      <div classNames="inline-block mx-auto text-center w-8 p-6 rounded-lg">
         <h1 className="text-center text-2xl md:text-3xl font-bold mb-2">
           Let&#39;s <span className="text-yellow-600">Talk</span>
         </h1>
-        <p className="pb-6 font-bold text-gray-500">Got a project or collaboration you want to get started on?<br/> Send an <a href="mailto:admin@goosebumps.co.zw"><span className="text-yellow-500 hover:text-yellow-600">e-mail</span></a> and I&#39;ll get back to you as soon as possible.</p>
+        <p className="pb-6 font-bold text-gray-500 text-center">Got a project or collaboration you want to get started on?<br/> Send an <a href="mailto:admin@goosebumps.co.zw"><span className="text-yellow-500 hover:text-yellow-600">e-mail</span></a> and I&#39;ll get back to you as soon as possible.</p>
       </div>
     </section>
     </HomeLayout>
