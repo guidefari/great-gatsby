@@ -14,7 +14,7 @@ export default function portfolioCard({ data }) {
   }
 
   portfolioCard.propTypes = {
-    data: PropTypes.object,
+    data: PropTypes.array,
   };
 
   

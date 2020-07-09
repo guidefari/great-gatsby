@@ -1,10 +1,10 @@
 import React from "react";
- import { graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
 import Hero from "../images/space.svg";
-// import Feature from "../templates/featureContainer";
+import Feature from "../templates/featureContainer";
 
 
 function IndexPage({data}) {
@@ -30,11 +30,11 @@ function IndexPage({data}) {
           <br/>
           <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-yellow-400"> Web Development & Music </h3>
         </div>
-        {/* <Feature
+        <Feature
         bigHead="Featured Web Projects"
         smallHead="Portfolio"
-        data={data.allFile.edges}
-        /> */}
+        data={data}
+        />
       </section>
 
 
@@ -51,13 +51,13 @@ function IndexPage({data}) {
 }
 
 IndexPage.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.object,
 };
 
 export default IndexPage;
 
- export const Query = graphql`
- query IndexQuery {
+export const Query = graphql`
+query IndexQuery {
   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/"}}) {
     edges {
       node {
@@ -74,5 +74,4 @@ export default IndexPage;
     }
   }
 }
-
- `
+`
