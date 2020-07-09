@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
 import Hero from "../images/space.svg";
-import Feature from "../templates/featureContainer";
+import Feature from "../components/featureContainer";
 
 
 function IndexPage({data}) {
@@ -58,7 +58,7 @@ export default IndexPage;
 
 export const Query = graphql`
 query IndexQuery {
-  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/"}}) {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/Portfolio/"}}) {
     edges {
       node {
         id

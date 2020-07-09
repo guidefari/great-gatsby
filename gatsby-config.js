@@ -20,13 +20,13 @@ module.exports = {
         name: 'posts'
       }
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/components/content`,
-        name: 'posts'
-      }
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/src/posts/content`,
+    //     name: 'posts'
+    //   }
+    // },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
