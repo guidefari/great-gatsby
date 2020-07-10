@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const  portfolioCard = ({ data }) =>
     (
-      <div  className="p-4 min-w-full flex md:min-w-3xl">
+      <div  className=" flex">
       {data.allMarkdownRemark.edges.map(item => (
         <div key={item.node.id} className="h-full min-w-full mx-4 w-full md:min-w-2xl p-4 flex flex-col-reverse justify-between md:flex-row bg-gray-600 md:max-w-3xl bg-white rounded-lg md:p-12 shadow-lg">
         <div className="portfolioText flex flex-col justify-between text-center md:text-left md:w-8/12 mx-auto px-5">
