@@ -1,8 +1,8 @@
 ---
 title: 'AfroBeat chill'
-desctiption: 'Laidback dancefloor afro tunes'
+description: 'Laidback dancefloor afro tunes'
 DJ: 'Safari'
-exernal: 'https://www.youtube.com/watch?v=anxlX5urLNM'
+external: 'https://www.youtube.com/watch?v=anxlX5urLNM'
 path: '#'
 ---
 

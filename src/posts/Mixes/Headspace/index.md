@@ -1,7 +1,7 @@
 ---
 title: ''
-desctiption: ''
+description: ''
 DJ: ''
-exernal: ''
+external: ''
 path: '#'
 ---

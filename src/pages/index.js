@@ -35,7 +35,7 @@ function IndexPage({data}) {
         <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
             <PortfolioCard data={data.portfolio.edges}/> 
         </Feature>
-        <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
+        <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
             <PlaylistCard data={data.playlists.edges}/> 
         </Feature>
       </section>
@@ -85,6 +85,20 @@ export const Query = graphql`
         frontmatter {
           title
           external
+        }
+      }
+    }
+  }
+  mixes: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/Mixes/"}}) {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          title
+          description
+          external
+          DJ
         }
       }
     }
