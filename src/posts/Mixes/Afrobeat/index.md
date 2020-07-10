@@ -3,7 +3,7 @@ title: 'AfroBeat chill'
 description: 'Laidback dancefloor afro tunes'
 DJ: 'Safari'
 external: 'https://www.youtube.com/watch?v=anxlX5urLNM'
-path: '/#'
+path: '/mix1'
 ---
 
 - Odunsi feat RAYE - Tipsy
