@@ -1,8 +1,11 @@
 import React from 'react'
 import PropTypes from "prop-types";
-import PortfolioCard from "./portfolioCard";
 
-const featureContainer = ({bigHead, smallHead, data}) => (
+
+const featureContainer = ({bigHead, smallHead, children}) => {
+    // console.log(data)
+
+    return (
     <section className="pb-24 text-gray-870 body-font border-gray-200 w-full">
         <div className="flex flex-col mt-24 text-center w-full mb-20">
             <h2 className="text-xs text-orange-400 tracking-widest font-medium title-font mb-1 uppercase">{smallHead}</h2>
@@ -11,16 +14,16 @@ const featureContainer = ({bigHead, smallHead, data}) => (
         
         <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
             
-                <PortfolioCard className="" data={ data }/> 
+                {children} 
             
         </div>
     </section>
-    )
+    )}
 
 featureContainer.propTypes = {
         bigHead: PropTypes.string,
         smallHead: PropTypes.string,
-        data: PropTypes.object,
+        children: PropTypes.node.isRequired,
       };
 
 export default featureContainer

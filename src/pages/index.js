@@ -5,6 +5,8 @@ import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
 import Hero from "../images/space.svg";
 import Feature from "../components/featureContainer";
+import PortfolioCard from "../components/portfolioCard";
+import PlaylistCard from "../components/playlistCard";
 
 
 function IndexPage({data}) {
@@ -30,11 +32,12 @@ function IndexPage({data}) {
           <br/>
           <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-yellow-400"> Web Development & Music </h3>
         </div>
-        <Feature
-        bigHead="Featured Web Projects"
-        smallHead="Portfolio"
-        data={data}
-        />
+        <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
+            <PortfolioCard data={data.portfolio.edges}/> 
+        </Feature>
+        <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
+            <PlaylistCard data={data.playlists.edges}/> 
+        </Feature>
       </section>
 
 
@@ -57,8 +60,8 @@ IndexPage.propTypes = {
 export default IndexPage;
 
 export const Query = graphql`
-query IndexQuery {
-  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/Portfolio/"}}) {
+{
+  portfolio: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/Portfolio/"}}) {
     edges {
       node {
         id
@@ -70,6 +73,18 @@ query IndexQuery {
           external
           showInProjects
           tech
+        }
+      }
+    }
+  }
+  playlists: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/Playlists/"}}) {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          title
+          external
         }
       }
     }

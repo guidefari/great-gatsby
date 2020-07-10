@@ -1,4 +1,5 @@
 ---
+path: '#'
 title: 'The BeatTape - Knxwledge & Friends'
 external: 'https://goosebumps.fanlink.to/beatTape'
 ---
