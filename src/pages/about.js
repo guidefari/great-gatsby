@@ -21,7 +21,8 @@ const AboutPage = () =>
                 <div className="text-xl mt-4">Built by: <a className="bg-yellow-300 hover:bg-yellow-400" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
                     Built using: 
                     <ul>
-                        <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://vuejs.org/"> Vue</a></li>
+                        <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://www.gatsbyjs.org/"> Gatsby</a></li>
+                        <strike><li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://vuejs.org/"> Vue</a></li></strike>
                         <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://tailwindcss.com/"> TailwindCSS</a></li>
                         <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://webpack.js.org/"> WebPack</a></li>
                         <strike><li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://parceljs.org/">ParcelJS</a></li></strike>
@@ -37,10 +38,11 @@ const AboutPage = () =>
                     <div className="bg-white shadow-2xl max-w-md z-10 rounded-full mt-6 ml-4">
                         <img alt="card img" className="rounded-lg" src="https://source.unsplash.com/random"></img>
                         <div className="rounded-lg text-xl p-10 bg-white">
-                          
+                          <blockquote>
                             This site was born out of necessity, mainly as a site for me to practice what I learn on the
                             Web Development journey, and to serve as a central house for music related content & other
                             projects. - A digital playground, so to say.
+                            </blockquote>
                         </div>
                     </div>
                 </div>
