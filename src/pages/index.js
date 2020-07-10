@@ -7,6 +7,7 @@ import Hero from "../images/space.svg";
 import Feature from "../components/featureContainer";
 import PortfolioCard from "../components/portfolioCard";
 import PlaylistCard from "../components/playlistCard";
+import MixCard from "../components/mixCard";
 
 
 function IndexPage({data}) {
@@ -37,6 +38,9 @@ function IndexPage({data}) {
         </Feature>
         <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
             <PlaylistCard data={data.playlists.edges}/> 
+        </Feature>
+        <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
+            <MixCard data={data.mixes.edges}/> 
         </Feature>
       </section>
 
