@@ -1,5 +1,5 @@
 ---
-path: '#'
+path: '/stimming'
 title: 'Intro to Martin Stimming'
 external: 'https://goosebumps.fanlink.to/stimmingplaylist'
 ---

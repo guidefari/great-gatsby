@@ -1,5 +1,5 @@
 ---
-path: '#'
+path: '/vanilla'
 title: 'Vanilla Deep'
 external: 'https://goosebumps.fanlink.to/vanilladeep'
 ---
