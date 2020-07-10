@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 
 const  portfolioCard = ({ data }) =>
     (
-      <div  className=" flex">
+      <div  className=" flex mb-4 px-4">
       {data.allMarkdownRemark.edges.map(item => (
-        <div key={item.node.id} className="h-full min-w-full mx-4 w-full md:min-w-2xl p-4 flex flex-col-reverse justify-between md:flex-row bg-gray-600 md:max-w-3xl bg-white rounded-lg md:p-12 shadow-lg">
+        <div key={item.node.id} className="card h-full mx-8 w-full md:min-w-2xl p-4 flex flex-col-reverse justify-between md:flex-row bg-gray-600 md:max-w-3xl bg-white rounded-lg md:p-12 shadow-lg">
         <div className="portfolioText flex flex-col justify-between text-center md:text-left md:w-8/12 mx-auto px-5">
           <h1 className="text-2xl md:text-3xl font-bold mb-2">{ item.node.frontmatter.title }</h1>
           <div className="mt-4  text-gray-400">

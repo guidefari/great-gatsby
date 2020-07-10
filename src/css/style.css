@@ -13,7 +13,9 @@ h1 {
     @apply text-lg;
   }
 
-  
+  .card{
+    min-width: 22rem;
+  }
 
 @tailwind components;
 /*! purgecss end ignore */
