@@ -59,7 +59,7 @@ export default function Template({data}) {
             {/* <Link to="/webdev">Go Back</Link>
             <hr/> */}
             <h1 className='text-3xl mb-5'>{post.frontmatter.title}</h1>
-            <div className='danger' dangerouslySetInnerHTML={{__html: post.html}}/>
+            <div className='danger prose lg:prose-xl' dangerouslySetInnerHTML={{__html: post.html}}/>
         </div>
         </Layout>
     )
