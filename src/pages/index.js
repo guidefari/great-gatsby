@@ -39,7 +39,7 @@ function IndexPage({data}) {
         <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
             <PlaylistCard data={data.playlists.edges}/> 
         </Feature>
-        <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
+        <Feature bigHead="Featured Mixes" smallHead="Curated tunes">
             <MixCard data={data.mixes.edges}/> 
         </Feature>
       </section>

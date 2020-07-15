@@ -6,6 +6,7 @@ external: 'https://www.youtube.com/watch?v=anxlX5urLNM'
 path: '/mix1'
 ---
 
+<span className="w-full"><strong> Tracklist:</strong></span>
 - Odunsi feat RAYE - Tipsy
 - Show Dem Camp - Tropicana ft. Flash
 - Fasina x Adey - Split

@@ -14,7 +14,7 @@ export default function Template({data}) {
             pathname={post.frontmatter.slug}
             article />
             
-          <div className='prose lg:prose-xl'>
+          <div className='text-gray-900 prose lg:prose-xl'>
           {/* <GlobalStyle /> */}
               {/* <Link to="/webdev">Go Back</Link>
               <hr/> */}

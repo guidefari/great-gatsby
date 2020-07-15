@@ -1,6 +1,6 @@
 ---
 path: '/miz'
-title: 'Ambient'
-external: 'https://goosebumps.co.zw/about'
+title: 'Zimbabwe Heat 🔥'
+external: 'https://open.spotify.com/playlist/20xkoCRlhU2LhDSPuGSRHZ?si=P_9YkYAfQj2YJ7ym-ttMVg'
 ---
-Perfect music to sit in the background while you code away.
+A collection of some of my favourite music with Zim roots

@@ -8,7 +8,7 @@ const  portfolioCard = ({ data }) => {
      return (
       <div  className="flex px-4 mb-4 ">
       {data.map(item => (
-        <div key={item.node.id} className="flex flex-col-reverse justify-between w-full h-full p-4 mx-6 bg-gray-600 rounded-lg shadow-lg card md:min-w-2xl md:flex-row md:max-w-3xl md:p-12">
+        <div key={item.node.id} className="flex flex-col-reverse justify-between w-full h-full p-4 mx-6 bg-gray-600 rounded-lg shadow-lg card md:min-w-3xl md:flex-row md:max-w-3xl md:p-12">
         <div className="flex flex-col justify-between px-5 mx-auto text-center portfolioText md:text-left md:w-8/12">
           
           <h1 className="mb-2 text-2xl font-bold md:text-3xl">{ item.node.frontmatter.title }</h1>
