@@ -3,6 +3,7 @@ path: "/lorem"
 date: "2020-07-13"
 category: "music"
 title: "My other gatsby post"
+image: "/img/decks.jpg"
 author: "GT Fari"
 ---
 
