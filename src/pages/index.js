@@ -15,7 +15,7 @@ function IndexPage({data}) {
   return (
     <HomeLayout className='overflow-x-hidden'>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`freelance`,`music`,`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
       />
 
