@@ -1,13 +1,13 @@
 ---
 path: '/3'
 title: 'Furnitures 2 Suit'
-logo: './goose.png'
-external: 'https://goosebumps.co.zw/about'
+logo: './img/portfolio-logos/furniture-logo.png'
+external: 'https://furnitures2suit.uk/'
 tech:
-  - Figma
-  - TailwindCSS
-  - Gatsby
+  - Wordpress
+  - CSS
+  - E-Commerce
 showInProjects: true
 ---
 
-The never-ending project. From design sketches on Figma, to what you see here now.
+This project's main task was to redesign an old site, to give it a more modern & refreshing look. A lot more custom CSS than usual was used, to get the site looking exactly how the client wanted.

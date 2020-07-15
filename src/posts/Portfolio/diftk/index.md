@@ -1,13 +1,13 @@
 ---
 path: '/2'
-title: 'DIFTK'
-logo: './goose.png'
-external: 'https://goosebumps.co.zw/about'
+title: 'Do It 4 The Kids'
+logo: './img/portfolio-logos/diftk.png'
+external: 'https://doit4thekidz.org/'
 tech:
-  - Figma
-  - TailwindCSS
-  - Gatsby
+  - Wordpress
+  - CSS
+  - Charity
 showInProjects: true
 ---
 
-The never-ending project. From design sketches on Figma, to what you see here now.
+DIFTK is a youth led organisation that's doing a lot of work for under-priviledged children in Bulawayo. This website is an ongoing project, that I maintain on a volunteer basis.

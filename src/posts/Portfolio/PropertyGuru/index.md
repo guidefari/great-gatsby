@@ -1,13 +1,13 @@
 ---
 path: '/5'
 title: 'Property Guru'
-logo: './goose.png'
-external: 'https://goosebumps.co.zw/about'
+logo: './img/portfolio-logos/ProperyGuru.png'
+external: 'https://propertyguru.co.zw/'
 tech:
-  - Figma
-  - TailwindCSS
-  - Gatsby
-showInProjects: true
+  - Wordpress
+  - CSS
+  - Classifieds
+showInProjects: false
 ---
 
 The never-ending project. From design sketches on Figma, to what you see here now.

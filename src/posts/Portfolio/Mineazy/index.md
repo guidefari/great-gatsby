@@ -1,13 +1,13 @@
 ---
 path: '/4'
 title: 'Mineazy'
-logo: './goose.png'
-external: 'https://goosebumps.co.zw/about'
+logo: './img/portfolio-logos/Mineazy.png'
+external: 'https://mineazyminingsolutions.co.zw/'
 tech:
-  - Figma
-  - TailwindCSS
-  - Gatsby
+  - HTML
+  - CSS
+  - Landing Site
 showInProjects: true
 ---
 
-The never-ending project. From design sketches on Figma, to what you see here now.
+Simple landing site that was done in order to get Mineazy some online presence. The client wanted the site to look as similar to the company profile document as possible, so don't judge the design too harshly, lol.
