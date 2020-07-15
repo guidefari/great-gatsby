@@ -21,7 +21,7 @@ function Header() {
           <h1 className="flex items-center text-white no-underline">
           <img
           alt="Cat and human sitting on a couch"
-          className="  w-8 mr-2"
+          className="w-8 mr-2 "
           src={gbLogo}
         />
             <span className="text-xl font-bold tracking-tight">
@@ -31,11 +31,11 @@ function Header() {
         </Link>
 
         <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+          className="flex items-center block px-3 py-2 mb-4 text-white rounded focus:outline-none md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
-            className="w-3 h-3 fill-current"
+            className="w-5 h-5 fill-current"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -68,7 +68,7 @@ function Header() {
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-white text-center no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-center text-white no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >
