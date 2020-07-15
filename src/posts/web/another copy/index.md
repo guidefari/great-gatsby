@@ -1,9 +1,10 @@
 ---
 path: "/post-three"
 date: "2020-07-13"
+image: "/img/decks.jpg"
 category: "web"
 title: "Another one B"
-slug: "A short description of le article"
+slug: "A short description of thee article"
 author: "GT Fari"
 ---
 

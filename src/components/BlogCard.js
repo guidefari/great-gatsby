@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 
 
 
-const BlogCard = ({category, title, slug, path}) => {
+const BlogCard = ({category, title, slug, path, image}) => {
     // const post = data.allMarkdownRemark.edges.map()
     
     return (
         <div>
             <div className="h-full overflow-hidden border-2 border-gray-700 rounded-lg shadow-lg">
-          <img className="object-cover object-center w-full lg:h-48 md:h-36" src="https://dummyimage.com/720x400" alt="blog" />
+          <img className="object-cover object-center w-full lg:h-48 md:h-36" src={image} alt="blog" />
           <div className="p-6 bg-gray-600">
           <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
             <h1 className="mb-3 text-xl font-medium text-gray-900 title-font">{title}</h1>
@@ -34,6 +34,7 @@ BlogCard.propTypes = {
     title: PropTypes.string,
     slug: PropTypes.string,
     path: PropTypes.string,
+    image: PropTypes.string,
   };
 
 export default BlogCard

@@ -2,6 +2,7 @@
 path: "/ipsum"
 date: "2020-07-13"
 category: "music"
+image: "/img/decks.jpg"
 title: "My other gatsby post"
 author: "GT Fari"
 ---

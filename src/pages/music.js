@@ -23,6 +23,7 @@ const MusicPage = ({ data }) => (
                     category={post.node.frontmatter.category}
                     title={post.node.frontmatter.title}
                     slug={post.node.frontmatter.slug}
+                    image={post.node.frontmatter.image}
                     path={post.node.frontmatter.path} />
         </div>
       
@@ -50,6 +51,7 @@ query MusicIndexQuery {
           title
           date
           author
+          image
         }
       }
     }
