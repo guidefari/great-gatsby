@@ -13,6 +13,8 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-offline`,
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -20,14 +22,6 @@ module.exports = {
         name: 'posts'
       }
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/posts/content`,
-    //     name: 'posts'
-    //   }
-    // },
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -61,6 +55,5 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
   ],
 };

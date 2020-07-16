@@ -10,8 +10,8 @@ export default function Template({data}) {
     return(
         <Layout>
           <SEO title={post.frontmatter.title}
-            description={post.frontmatter.description || post.excerpt || 'nothin’'}
-            pathname={post.frontmatter.slug}
+            description={post.frontmatter.slug || post.excerpt || 'nothin’'}
+            pathname={post.frontmatter.path}
             article />
             
           <div className='text-gray-900 prose lg:prose-xl'>
