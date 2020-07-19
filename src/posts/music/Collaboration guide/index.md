@@ -10,15 +10,17 @@ author: "GT Fari"
 
 ## Who's this article for?
 
-This is for the independent/indie artist in Zimbabwe, looking to start taking action on securing a long term career. 
-Needless to say, it's not going to cover everything under the sun, but hopefully to start getting you to ask important questions, and start having the conversations earlier in your career. Invest in your intellectual property.
+This is for the independent/indie artist in Zimbabwe, looking to take action towards securing a long term career. 
+It's not going to cover everything under the sun, but hopefully enough to get you asking the right questions, and start having the important conversations earlier in your career. Invest in your intellectual property.
 
-Quite a number of conversations have prompted me to put this piece together, and a tweet I saw the night before I started writing this is what gave me the final push to get started: 
+Quite a number of conversations have prompted me to put this piece together. The final push to get started came from a tweet I saw the night before: 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Most artists don&#39;t even keep and manage their Registration Codes, collaborations are released without split sheets, etc <a href="https://t.co/Rwcichsq9B">https://t.co/Rwcichsq9B</a></p>&mdash; Music Business Genius (@forbesmujuru) <a href="https://twitter.com/forbesmujuru/status/1281900608665133057?ref_src=twsrc%5Etfw">July 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-The reason this gave me a sense of urgency is because it seems the general standards of operation give the feeling that it's okay for independent artists to ignore their collaboration agreements, split sheets, digital distribution, amongst other forms of keeping the house in order.
+This gave me a sense of urgency because it seems the general standards of operation give the feeling that it's okay for independent artists to ignore their collaboration agreements, split sheets, digital distribution, amongst other forms of keeping the house in order.
+
+We've heard the story of 'Artist A' getting screwed out of their song one too many times, and it usually comes down to having ignored the paperwork. 
 
 What I'm trying to achieve by putting together these resources is summed up below:
 
@@ -58,7 +60,7 @@ The post also covers split sheets, which are used to "keep track of ownership pe
 
 ### Distribution
 
-"Distribution is the act of making the score publicly available and accessible – getting it to stores, selling it online” (Tobenski, 2013). 
+"Distribution is the act of making the score(song) publicly available and accessible – getting it to stores, selling it online” (Tobenski, 2013). 
 Getting your music onto platforms like Youtube, Spotify, Amazon Music etc.
 
 ### Publishing
@@ -87,8 +89,10 @@ On distrokid I usually give the producer of the beat 50% and then divide the oth
 
 ---
 
-[**Dae Bogan**](https://www.tuneregistry.com/blog/understanding-the-difference-between-a-split-sheet-and-collaboration-agreement-and-why-you-should-have-both-for-every-song-collaboration) on The difference between a split sheet & a collaboration agreement:
+**Dae Bogan** on The difference between a split sheet & a collaboration agreement:
+
+[Understanding The Difference Between A Split Sheet And Collaboration Agreement And Why You Should Have Both For Every Song Collaboration](https://www.tuneregistry.com/blog/understanding-the-difference-between-a-split-sheet-and-collaboration-agreement-and-why-you-should-have-both-for-every-song-collaboration)
 
 ---
 
-[**Music Publishing Glossary**](https://www.songtrust.com/music-publishing-glossary) - More definitions, put together much better than I ever could 😆
+[Music Publishing Glossary](https://www.songtrust.com/music-publishing-glossary) - More definitions, put together much better than I ever could 😆
