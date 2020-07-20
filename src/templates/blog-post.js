@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 export default function Template({data}) {
     const post = data.markdownRemark
-
+    console.log(data)
     return(
         <Layout>
           <SEO 
@@ -16,7 +16,7 @@ export default function Template({data}) {
             image={post.frontmatter.image}
             article />
             
-          <div className='text-gray-900 prose lg:prose-xl'>
+          <div className='prose text-gray-900  lg:prose-xl'>
           {/* <GlobalStyle /> */}
               {/* <Link to="/webdev">Go Back</Link>
               <hr/> */}

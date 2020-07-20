@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function SEO({ description, lang, meta, keywords, title, image: metaImage }) {
+function SEO({ description, lang, meta, keywords, title, image }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
@@ -17,10 +17,7 @@ function SEO({ description, lang, meta, keywords, title, image: metaImage }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : null
+  
 
   return (
     <Helmet
@@ -60,6 +57,10 @@ function SEO({ description, lang, meta, keywords, title, image: metaImage }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `og:image`,
+          content: image,
+        },
       ]
         .concat(
           keywords.length > 0
@@ -68,33 +69,6 @@ function SEO({ description, lang, meta, keywords, title, image: metaImage }) {
                 content: keywords.join(`, `),
               }
             : []
-        )
-        .concat(
-          metaImage
-            ? [
-                {
-                  property: "og:image",
-                  content: image,
-                },
-                {
-                  property: "og:image:width",
-                  content: metaImage.width,
-                },
-                {
-                  property: "og:image:height",
-                  content: metaImage.height,
-                },
-                {
-                  name: "twitter:card",
-                  content: "summary_large_image",
-                },
-              ]
-            : [
-                {
-                  name: "twitter:card",
-                  content: "summary",
-                },
-              ]
         )
         .concat(meta)}
       title={title}
@@ -115,11 +89,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   title: PropTypes.string.isRequired,
-  image: PropTypes.shape({
-    src: PropTypes.string.isRequired,
-    height: PropTypes.number.isRequired,
-    width: PropTypes.number.isRequired,
-  }),
+  image: PropTypes.string
 };
 
 export default SEO;

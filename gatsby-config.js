@@ -7,6 +7,8 @@ module.exports = {
   siteMetadata: {
     title: `Goosebumps Collective`,
     description: `Freelance Web Development & Curated Music`,
+    url: "https://goosebumps.co.zw",
+    image: `src/images/orange.jpg`,
     author: `@txndai`,
   },
   plugins: [
