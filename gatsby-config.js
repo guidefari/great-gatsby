@@ -13,7 +13,6 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-offline`,
     `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-source-filesystem',
@@ -34,6 +33,7 @@ module.exports = {
         icon: `src/images/gb.png`,
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
