@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, image: metaImage }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
@@ -17,6 +17,10 @@ function SEO({ description, lang, meta, keywords, title }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+  const image =
+    metaImage && metaImage.src
+      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
+      : null
 
   return (
     <Helmet
@@ -65,6 +69,33 @@ function SEO({ description, lang, meta, keywords, title }) {
               }
             : []
         )
+        .concat(
+          metaImage
+            ? [
+                {
+                  property: "og:image",
+                  content: image,
+                },
+                {
+                  property: "og:image:width",
+                  content: metaImage.width,
+                },
+                {
+                  property: "og:image:height",
+                  content: metaImage.height,
+                },
+                {
+                  name: "twitter:card",
+                  content: "summary_large_image",
+                },
+              ]
+            : [
+                {
+                  name: "twitter:card",
+                  content: "summary",
+                },
+              ]
+        )
         .concat(meta)}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
@@ -84,6 +115,11 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   title: PropTypes.string.isRequired,
+  image: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
 };
 
 export default SEO;

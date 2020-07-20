@@ -9,9 +9,11 @@ export default function Template({data}) {
 
     return(
         <Layout>
-          <SEO title={post.frontmatter.title}
+          <SEO 
+            title={post.frontmatter.title}
             description={post.frontmatter.slug || post.excerpt || 'nothin’'}
             pathname={post.frontmatter.path}
+            image={post.frontmatter.image}
             article />
             
           <div className='text-gray-900 prose lg:prose-xl'>
@@ -40,6 +42,7 @@ query BlogPostByPath($path: String!) {
       date
       description
       slug
+      image
     }
     excerpt
   }
