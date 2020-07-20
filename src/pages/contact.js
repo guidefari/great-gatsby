@@ -19,7 +19,9 @@ function ContactPage() {
         <p className="mx-auto text-base leading-relaxed text-black lg:w-2/3">Let&#39;s work together, leave a message below.</p>
       </div>
 
-      <form className="mx-auto lg:w-1/2 md:w-2/3" name="contact" data-netlify="true" method='POST'>
+      <form className="mx-auto lg:w-1/2 md:w-2/3" name="contact" data-netlify="true" method='POST' netlify-honeypot="bot-field">
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
         <div className="flex flex-wrap -m-2">
           <div className="w-1/2 p-2">
             <input className="w-full px-4 py-2 text-base text-gray-800 bg-gray-300 border border-gray-700 rounded focus:outline-none focus:border-yellow-200" placeholder="Name" type="text" name='name' ></input>
