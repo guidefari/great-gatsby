@@ -16,10 +16,7 @@ export default function Template({data}) {
             image={post.frontmatter.image}
             article />
             
-          <div className='prose text-gray-900  lg:prose-xl'>
-          {/* <GlobalStyle /> */}
-              {/* <Link to="/webdev">Go Back</Link>
-              <hr/> */}
+          <div className='prose text-gray-900  lg:prose-xl'> 
               <h1 className=''>{post.frontmatter.title}</h1>
               <div className='danger ' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
