@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import portrait from '../../static/img/portrait.jpeg'
@@ -30,8 +30,8 @@ const AboutPage = () =>
                         <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://www.netlify.com/">Netlify</a></li>
                     </ul> <br></br><br></br>
                     <p>Don&#39;t be shy to say hi or shoot through any suggestions right <a className="bg-yellow-300 hover:bg-yellow-400" href="https://linktr.ee/goosebumps">here</a>😁</p>
-                    <p>Check out the blog <a className="bg-yellow-300 hover:bg-yellow-400" to="soon">here</a> to learn more about what we do.</p>
-
+                    <p>Check out the <Link className="bg-yellow-300 hover:bg-yellow-400" to="/webdev">Web Dev blog</Link>, and the <Link className="bg-yellow-300 hover:bg-yellow-400" to="/music">Music blog</Link> to learn more about what we do.</p><br/>
+                    <p>Did I mention that this site is open source? You can find the repo <a className="bg-yellow-300 hover:bg-yellow-400" href='https://github.com/txndai/great-gatsby'>here</a></p>
                 </div>
             </div>
             <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
