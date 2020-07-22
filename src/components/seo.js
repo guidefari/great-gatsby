@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
+//this is the file I'd suggest to start with
 function SEO({ description, lang, meta, keywords, title, image }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
