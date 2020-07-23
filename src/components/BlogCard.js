@@ -14,8 +14,8 @@ const BlogCard = ({category, title, slug, path, image}) => {
           <div className="flex flex-col justify-between p-6 bg-gray-600 min-h-xs">
             <div>
               <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
-              <h1 className="mb-3 text-xl font-medium text-gray-900 title-font">{title}</h1>
-              <p className="mb-3 leading-relaxed text-gray-900">{slug}</p>
+              <h1 className="mb-3 text-xl font-semibold text-gray-800 title-font">{title}</h1>
+              <p className="mb-3 leading-relaxed text-gray-400">{slug}</p>
             </div>
             <div className="flex flex-wrap items-center ">
               <Link to={path} className="inline-flex items-center text-yellow-600 md:mb-2 lg:mb-0">Read full
