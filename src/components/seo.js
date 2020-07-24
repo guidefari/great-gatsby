@@ -1,3 +1,6 @@
+// The site static query gets the default meta values that are set in the gatsby.config file
+
+
 import { useStaticQuery, graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";

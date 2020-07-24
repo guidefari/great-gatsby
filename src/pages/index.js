@@ -15,6 +15,7 @@ function IndexPage({data}) {
   console.log(data)
   return (
     <HomeLayout className='overflow-x-hidden'>
+      {/* Index page SEO component & its props */}
       <SEO
         keywords={[`freelance`,`music`,`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
