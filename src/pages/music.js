@@ -14,7 +14,7 @@ const MusicPage = ({ data }) => (
         keywords={[`freelance`,`music`,`blog`, `playlists`, `tailwindcss`]}
         title="Music"
       />
-    <section className=" body-font">
+    <section className="text-gray-200 body-font">
     <div className="container px-5 py-24 mx-auto">
     <div className='flex flex-wrap -m-4'>
       {data.allMarkdownRemark.edges.map(post => (

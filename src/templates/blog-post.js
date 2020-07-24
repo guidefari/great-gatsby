@@ -16,7 +16,7 @@ export default function Template({data}) {
             image={post.frontmatter.image}
             article />
             
-          <div className='prose text-gray-400 lg:prose-xl'> 
+          <div className='prose text-gray-900  lg:prose-xl'> 
               <h1 className=''>{post.frontmatter.title}</h1>
               <div className='danger ' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
