@@ -8,15 +8,19 @@ import Feature from "../components/featureContainer";
 import PortfolioCard from "../components/portfolioCard";
 import PlaylistCard from "../components/playlistCard";
 import MixCard from "../components/mixCard";
+import seoImage from '../../static/img/orange.jpg'
 
 
 function IndexPage({data}) {
   console.log(data)
   return (
     <HomeLayout className='overflow-x-hidden'>
+      {/* SEO props from index page */}
       <SEO
         keywords={[`freelance`,`music`,`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
+        image={seoImage}
+        url='https://goosebumps.co.zw/'
       />
 
       <section className="text-center">
