@@ -18,7 +18,7 @@ function Header() {
     <header className="bg-transparent">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
+          <h1 className="flex items-center mb-0 text-white no-underline">
           <img
           alt="Cat and human sitting on a couch"
           className="w-8 mr-2 "

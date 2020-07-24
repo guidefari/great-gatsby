@@ -19,6 +19,7 @@ function IndexPage({data}) {
         keywords={[`freelance`,`music`,`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
         image={seoImage}
+        url='https://goosebumps.co.zw/'
       />
 
       <section className="text-center">
