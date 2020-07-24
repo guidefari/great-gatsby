@@ -8,6 +8,7 @@ import Feature from "../components/featureContainer";
 import PortfolioCard from "../components/portfolioCard";
 import PlaylistCard from "../components/playlistCard";
 import MixCard from "../components/mixCard";
+import seoImage from '../images/orange.jpg'
 
 
 function IndexPage({data}) {
@@ -17,6 +18,7 @@ function IndexPage({data}) {
       <SEO
         keywords={[`freelance`,`music`,`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
+        image={seoImage}
       />
 
       <section className="text-center">
