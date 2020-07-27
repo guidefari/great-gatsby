@@ -13,6 +13,7 @@ const BlogPage = ({ data }) => (
     <SEO
         keywords={[`technology`,`blog`, `frontend`, `development`]}
         title="Web Development"
+        pathname="/webdev"
       />
     <section className="text-gray-200 body-font">
     <div className="container px-5 py-24 mx-auto">

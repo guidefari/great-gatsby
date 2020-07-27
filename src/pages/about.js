@@ -11,6 +11,7 @@ const AboutPage = () =>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="About"
+        pathname="/about"
       />
 
      

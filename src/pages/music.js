@@ -13,6 +13,7 @@ const MusicPage = ({ data }) => (
     <SEO
         keywords={[`freelance`,`music`,`blog`, `playlists`, `tailwindcss`]}
         title="Music"
+        pathname="/music"
       />
     <section className=" body-font">
     <div className="container px-5 py-24 mx-auto">

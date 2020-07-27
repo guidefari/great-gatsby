@@ -9,6 +9,7 @@ function ContactPage() {
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`, `contact`]}
         title="Contact"
+        pathname="/contact"
       />
       <section className="relative section80">
     

@@ -21,6 +21,7 @@ function IndexPage({data}) {
         title="Home"
         image={seoImage}
         url='https://goosebumps.co.zw/'
+        pathname=""
       />
 
       <section className="text-center">

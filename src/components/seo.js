@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function SEO({ description, lang, meta, keywords, title, image, url }) {
+function SEO({ description, lang, meta, keywords, title, image, url, pathname }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
@@ -22,6 +22,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+  const canonical = pathname ? `${site.siteMetadata.url}${pathname}` : null
 
   
 
@@ -30,6 +31,16 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
       htmlAttributes={{
         lang,
       }}
+      link={
+        canonical
+          ? [
+              {
+                rel: "canonical",
+                href: canonical,
+              },
+            ]
+          : []
+      }
       meta={[
         {
           name: `og:description`,
@@ -56,7 +67,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
           content: `summary_large_image`,
         },
         {
-          name: `twitter:site`,
+          name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
         {
@@ -100,7 +111,8 @@ SEO.propTypes = {
   meta: PropTypes.array,
   title: PropTypes.string.isRequired,
   url: PropTypes.string,
-  image: PropTypes.string
+  image: PropTypes.string,
+  pathname: PropTypes.string,
 };
 
 export default SEO;
