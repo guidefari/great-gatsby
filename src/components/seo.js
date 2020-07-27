@@ -1,3 +1,6 @@
+// The site static query gets the default meta values that are set in the gatsby.config file
+
+
 import { useStaticQuery, graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
@@ -19,6 +22,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+
   
 
   return (
@@ -40,6 +44,10 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
           content: title,
         },
         {
+          property: `og:site_name`,
+          content: title,
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
@@ -49,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
