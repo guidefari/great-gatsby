@@ -22,6 +22,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+
   
 
   return (
@@ -43,6 +44,10 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
           content: title,
         },
         {
+          property: `og:site_name`,
+          content: title,
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
@@ -52,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
