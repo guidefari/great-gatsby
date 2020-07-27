@@ -32,7 +32,7 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
       }}
       meta={[
         {
-          name: `description`,
+          name: `og:description`,
           content: metaDescription,
         },
         {
@@ -48,19 +48,15 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
           content: title,
         },
         {
-          property: `og:description`,
-          content: metaDescription,
+          name: `og:image`,
+          content: image,
         },
-        // {
-        //   property: `og:type`,
-        //   content: `website`,
-        // },
         {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
         {
-          name: `twitter:creator`,
+          name: `twitter:site`,
           content: site.siteMetadata.author,
         },
         {
@@ -73,10 +69,6 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
         },
         {
           name: `twitter:image`,
-          content: image,
-        },
-        {
-          name: `og:image`,
           content: image,
         },
       ]
