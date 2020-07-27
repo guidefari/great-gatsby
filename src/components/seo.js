@@ -51,10 +51,10 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
           property: `og:description`,
           content: metaDescription,
         },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
+        // {
+        //   property: `og:type`,
+        //   content: `website`,
+        // },
         {
           name: `twitter:card`,
           content: `summary_large_image`,
@@ -70,6 +70,10 @@ function SEO({ description, lang, meta, keywords, title, image, url }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: image,
         },
         {
           name: `og:image`,
