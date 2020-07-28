@@ -18,7 +18,7 @@ export default function Template({data}) {
             
           <div className='prose text-gray-400 lg:prose-xl'> 
               <h1 className=''>{post.frontmatter.title}</h1>
-              <div className='danger ' dangerouslySetInnerHTML={{__html: post.html}}/>
+              <div className='danger' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
         </Layout>
     )
@@ -36,7 +36,7 @@ query BlogPostByPath($path: String!) {
       path
       title
       author
-      date
+      date(formatString: "DD MMMM, YYYY")
       description
       slug
       image

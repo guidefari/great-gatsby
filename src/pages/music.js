@@ -50,7 +50,7 @@ query MusicIndexQuery {
         frontmatter {
           path
           title
-          date
+          date(formatString: "DD MMMM, YYYY")
           author
           slug
           image
