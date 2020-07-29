@@ -3,7 +3,7 @@ import { graphql, } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from "../components/layout";
 import SEO from '../components/seo'
-import Img from 'gatsby-image'
+import Img from '../components/Img'
 
 
 export default function Template({data}) {
@@ -19,7 +19,7 @@ export default function Template({data}) {
             article />
             
           <div className='prose text-gray-400 lg:prose-xl'> 
-              <Img className='mb-10' fluid={post.frontmatter.image.childImageSharp.fluid} alt={post.frontmatter.title} />
+              <Img className='mb-10' fluid={post.frontmatter.image} alt={post.frontmatter.title} />
               <h1 className=''>{post.frontmatter.title}</h1>
               <h5>By {post.frontmatter.author}</h5>
               <h5>On {post.frontmatter.date}</h5>
