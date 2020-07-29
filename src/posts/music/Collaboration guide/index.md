@@ -4,7 +4,7 @@ date: "2020-07-15"
 category: "music"
 title: "Collaboration Guide for Indie artists in Zim"
 slug: "A quick introduction on how to approach collaborations in Zimbabwe."
-image: "https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+image: "./feature.jpg"
 author: "GT Fari"
 ---
 

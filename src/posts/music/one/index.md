@@ -4,7 +4,7 @@ date: "2020-07-13"
 category: "music"
 title: "Welcome to the music blog!"
 slug: "Where you'll find all the music related posts"
-image: "/img/decks.jpg"
+image: "./feature.jpg"
 author: "GT Fari"
 ---
 

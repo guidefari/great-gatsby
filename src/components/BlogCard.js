@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
+import Img from 'gatsby-image'
 
 
 
@@ -10,7 +11,8 @@ const BlogCard = ({category, title, slug, path, image}) => {
     return (
         <div className='h-full'>
             <div className="h-full overflow-hidden border-2 border-gray-700 rounded-lg shadow-lg ">
-          <img className="object-cover object-center w-full lg:h-48 md:h-36" src={image} alt="blog" />
+          {/* <img className="object-cover object-center w-full lg:h-48 md:h-36" src={image} alt="blog" /> */}
+          <Img fluid={image} />
           <div className="flex flex-col justify-between p-6 bg-gray-600 min-h-xs">
             <div>
               <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
