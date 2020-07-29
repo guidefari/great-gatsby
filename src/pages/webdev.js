@@ -24,7 +24,7 @@ const BlogPage = ({ data }) => (
                     category={post.node.frontmatter.category}
                     title={post.node.frontmatter.title}
                     slug={post.node.frontmatter.slug}
-                    image={post.node.frontmatter.image}
+                    image={post.node.frontmatter.image.childImageSharp.fluid}
                     path={post.node.frontmatter.path} />
       </div>
       
@@ -53,7 +53,13 @@ query WebIndexQuery {
           date(formatString: "DD MMMM, YYYY")
           author
           slug
-          image
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
