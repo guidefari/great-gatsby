@@ -1,118 +1,92 @@
-// The site static query gets the default meta values that are set in the gatsby.config file
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useLocation } from "@reach/router"
+import { useStaticQuery, graphql } from "gatsby"
+
+const SEO = ({ title, description, image, article }) => {
+  const { pathname } = useLocation()
+  const { site } = useStaticQuery(query)
 
 
-import { useStaticQuery, graphql } from "gatsby";
-import PropTypes from "prop-types";
-import React from "react";
-import { Helmet } from "react-helmet";
+  const {
+    defaultTitle,
+    titleTemplate,
+    defaultDescription,
+    siteUrl,
+    defaultImage,
+    twitterUsername,
+  } = site.siteMetadata
 
-function SEO({ description, lang, meta, keywords, title, image, url, pathname }) {
-  const { site } = useStaticQuery(graphql`
-    query DefaultSEOQuery {
-      site {
-        siteMetadata {
-          title
-          description
-          author
-          url
-          image
-        }
-      }
-    }
-  `);
-
-  const metaDescription = description || site.siteMetadata.description;
-  const canonical = pathname ? `${site.siteMetadata.url}${pathname}` : null
-
-  
+  const seo = {
+    title: title || defaultTitle,
+    description: description || defaultDescription,
+    image: `${siteUrl}${image || defaultImage}`,
+    url: `${siteUrl}${pathname}`,
+  }
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      link={
-        canonical
-          ? [
-              {
-                rel: "canonical",
-                href: canonical,
-              },
-            ]
-          : []
+    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <meta name="description" content={seo.description} />
+      <meta name="image" content={seo.image} />
+
+      {seo.url && <meta property="og:url" content={seo.url} />}
+
+      {(article ? true : null) && <meta property="og:type" content="article" />}
+
+      {seo.title && <meta property="og:title" content={seo.title} />}
+
+      {seo.description && (
+        <meta property="og:description" content={seo.description} />
+      )}
+
+      {seo.image && <meta property="og:image" content={seo.image} />}
+
+      <meta name="twitter:card" content="summary_large_image" />
+
+      {twitterUsername && (
+        <meta name="twitter:creator" content={twitterUsername} />
+      )}
+
+      {seo.title && <meta name="twitter:title" content={seo.title} />}
+
+      {seo.description && (
+        <meta name="twitter:description" content={seo.description} />
+      )}
+
+      {seo.image && <meta name="twitter:image" content={seo.image} />}
+    </Helmet>
+  )
+}
+
+export default SEO
+
+const query = graphql`
+  query SEO {
+    site {
+      siteMetadata {
+        defaultTitle: title
+        titleTemplate
+        defaultDescription: description
+        siteUrl: url
+        defaultImage: image
+        twitterUsername : author
       }
-      meta={[
-        {
-          name: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:url`,
-          content: url,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:site_name`,
-          content: title,
-        },
-        {
-          name: `og:image`,
-          content: image,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-        {
-          name: `twitter:image`,
-          content: image,
-        },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-    />
-  );
+    }
+  }
+`
+
+
+SEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  article: PropTypes.bool,
 }
 
 SEO.defaultProps = {
-  lang: `en`,
-  keywords: [],
-  meta: [],
-};
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  lang: PropTypes.string,
-  meta: PropTypes.array,
-  title: PropTypes.string.isRequired,
-  url: PropTypes.string,
-  image: PropTypes.string,
-  pathname: PropTypes.string,
-};
-
-export default SEO;
+  title: null,
+  description: null,
+  image: null,
+  article: false,
+}

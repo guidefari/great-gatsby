@@ -6,9 +6,10 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Goosebumps Collective`,
+    titleTemplate: "%s · Goosebumps Collective",
     description: `Freelance Web Development & Curated Music`,
     url: "https://goosebumps.co.zw",
-    image: `src/images/orange.jpg`,
+    image: `/img/orange.jpg`,
     author: `@txndai`,
   },
   plugins: [

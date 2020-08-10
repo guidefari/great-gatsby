@@ -38,7 +38,7 @@
     "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "fix": "npm run fix:lint && npm run fix:prettier",
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby clean && gatsby develop -H 0.0.0.0 -p 8080",
     "dev": "npm run develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
