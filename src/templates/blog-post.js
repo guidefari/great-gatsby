@@ -15,7 +15,7 @@ export default function Template({data}) {
             title={post.frontmatter.title}
             description={post.frontmatter.slug || post.excerpt || 'nothin’'}
             pathname={post.frontmatter.path}
-            image={post.frontmatter.image.childImageSharp.fluid.src}
+            image={post.frontmatter.image.childImageSharp.fluid.src || 'nothin’'}
             article />
             
           <div className='prose text-gray-400 lg:prose-xl'> 
