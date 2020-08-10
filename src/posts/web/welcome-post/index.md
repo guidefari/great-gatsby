@@ -6,6 +6,7 @@ category: "web"
 title: "Welcome to the web development blog!"
 slug: "Covering anything that I find interesting in the world of web dev"
 author: "GT Fari"
+article: "true"
 ---
 
 

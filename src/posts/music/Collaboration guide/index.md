@@ -6,6 +6,7 @@ title: "Collaboration Guide for Indie artists in Zim"
 slug: "A quick introduction on how to approach collaborations in Zimbabwe."
 image: "./feature.jpg"
 author: "GT Fari"
+article: "true"
 ---
 
 ## Who's this article for?

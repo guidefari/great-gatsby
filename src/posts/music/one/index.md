@@ -6,6 +6,7 @@ title: "Welcome to the music blog!"
 slug: "Where you'll find all the music related posts"
 image: "./feature.jpg"
 author: "GT Fari"
+article: "true"
 ---
 
 The first real article coming soon.
