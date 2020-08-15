@@ -48,4 +48,4 @@ If you need to quickly reach out for music that's entertaining, but won't be a d
 [Mixes & Livesets](https://www.youtube.com/playlist?list=PLy64tqMRKcJQvKi1XTgSfY2WWMT_ZeN-x)<br/>
 [Jams Casino](https://www.youtube.com/watch?v=CTq1i8-YV-M&list=PLy64tqMRKcJQ-MtVtHoWnKCEkzu--Vt2Z)<br/>
 [Ricardo Villalobos (Releases, Remixes, Unreleased, Edits)](https://www.youtube.com/watch?v=sX3Y0jDyv5E&list=PLCNvs8d3nHN8eAaw0jO2TwBM-Go-FFgdc)<br/>
-[Alina Baraz & Galimaitas - Urban Flora](https://www.youtube.com/watch?v=fASdRb5iUTY&list=PLJNbijG2M7Ox23X3enMfJIfKInSACA--g)<br/>
+[Alina Baraz & Galimaitas - Urban Flora](https://www.youtube.com/playlist?list=PLK-i9p7lIa6qwX3gjbvAcGSDyoE8_ac9H)<br/>
