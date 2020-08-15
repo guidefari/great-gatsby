@@ -50,7 +50,7 @@ const {
   } = site.siteMetadata
 ```
 
-siteMetadata in the SEO component comes from the static graphql query:
+siteMetadata (containing default/fallback values) in the SEO component comes from the static graphql query:
 
 ```jsx
 const query = graphql`
