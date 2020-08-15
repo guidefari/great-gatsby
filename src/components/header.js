@@ -51,12 +51,8 @@ function Header() {
         >
           {[
             {
-              route: `/music`,
-              title: `Music`,
-            },
-            {
-              route: `/webdev`,
-              title: `Web Development`,
+              route: `/blog`,
+              title: `Blog`,
             },
             {
               route: `/about`,

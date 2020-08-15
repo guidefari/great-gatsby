@@ -8,14 +8,14 @@ import PostCard from '../components/BlogCard'
 
 
 
-const MusicPage = ({ data }) => (
+const BlogPage = ({ data }) => (
   <Layout>
     <SEO
-        keywords={[`freelance`,`music`,`blog`, `playlists`, `tailwindcss`]}
-        title="Music"
-        pathname="/music"
+        keywords={[`software`,`blog`, `frontend`, `development`, `music`, `playlists`]}
+        title="Blog posts"
+        pathname="/blog"
       />
-    <section className=" body-font">
+    <section className="text-gray-200 body-font">
     <div className="container px-5 py-24 mx-auto">
     <div className='flex flex-wrap -m-4'>
       {data.allMarkdownRemark.edges.map(post => (
@@ -23,10 +23,10 @@ const MusicPage = ({ data }) => (
           <PostCard 
                     category={post.node.frontmatter.category}
                     title={post.node.frontmatter.title}
-                    slug={post.node.frontmatter.slug}
+                    summary={post.node.frontmatter.summary}
                     image={post.node.frontmatter.image.childImageSharp.fluid}
                     path={post.node.frontmatter.path} />
-        </div>
+      </div>
       
       ))}
     </div>
@@ -35,15 +35,13 @@ const MusicPage = ({ data }) => (
   </Layout>
 )
 
-MusicPage.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.object,
 };
 
 export const pageQuery = graphql`
-query MusicIndexQuery {
-  allMarkdownRemark (
-    filter: {frontmatter: {category: {eq: "music"}} }
-  ) {
+query WebIndexQuery {
+  allMarkdownRemark(filter: {frontmatter: {article: {eq: "true"}}}) {
     edges {
       node {
         id
@@ -52,7 +50,8 @@ query MusicIndexQuery {
           title
           date(formatString: "DD MMMM, YYYY")
           author
-          slug
+          summary
+          article
           image {
             childImageSharp {
               fluid {
@@ -65,7 +64,8 @@ query MusicIndexQuery {
     }
   }
 }
+
 `
 
 
-export default MusicPage
+export default BlogPage

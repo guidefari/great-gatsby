@@ -13,7 +13,7 @@ export default function Template({data}) {
         <Layout>
           <SEO 
             title={post.frontmatter.title}
-            description={post.frontmatter.slug || post.excerpt || 'nothin’'}
+            description={post.frontmatter.summary || post.excerpt || 'nothin’'}
             pathname={post.frontmatter.path}
             image={post.frontmatter.image.childImageSharp.fluid.src || 'nothin’'}
             article />
@@ -42,8 +42,7 @@ query BlogPostByPath($path: String!) {
       title
       author
       date(formatString: "DD MMMM, YYYY")
-      description
-      slug
+      summary
       image {
         childImageSharp {
           fluid(maxWidth: 1000, quality: 80 ) {

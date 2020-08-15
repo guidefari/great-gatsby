@@ -4,7 +4,7 @@ date: "2020-08-15"
 image: "./feature.jpg"
 category: "web"
 title: "Playlists for coding"
-slug: "Distraction-free(mostly) playlists that wont get in the way of concentrated work."
+summary: "Distraction-free(mostly) playlists that wont get in the way of concentrated work."
 author: "GT Fari"
 article: "true"
 ---

@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 
 
 
-const BlogCard = ({category, title, slug, path, image}) => {
+const BlogCard = ({category, title, summary, path, image}) => {
     // const post = data.allMarkdownRemark.edges.map()
     
     return (
@@ -16,8 +16,8 @@ const BlogCard = ({category, title, slug, path, image}) => {
           <div className="flex flex-col justify-between p-6 bg-gray-600 min-h-xs">
             <div>
               <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
-              <h1 className="mb-3 text-xl font-semibold text-gray-800 title-font">{title}</h1>
-              <p className="mb-3 leading-relaxed text-gray-400">{slug}</p>
+              <h1 className="h-12 mb-3 text-xl font-semibold text-gray-800 title-font">{title}</h1>
+              <p className="mb-3 leading-relaxed text-gray-400">{summary}</p>
             </div>
             <div className="flex flex-wrap items-center ">
               <Link to={path} className="inline-flex items-center text-yellow-600 md:mb-2 lg:mb-0">Read full
@@ -36,7 +36,7 @@ const BlogCard = ({category, title, slug, path, image}) => {
 BlogCard.propTypes = {
     category: PropTypes.string,
     title: PropTypes.string,
-    slug: PropTypes.string,
+    summary: PropTypes.string,
     path: PropTypes.string,
     image: PropTypes.string,
   };
