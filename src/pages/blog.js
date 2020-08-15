@@ -40,7 +40,7 @@ BlogPage.propTypes = {
 };
 
 export const pageQuery = graphql`
-query WebIndexQuery {
+query blogQuery {
   allMarkdownRemark(filter: {frontmatter: {article: {eq: "true"}}}) {
     edges {
       node {

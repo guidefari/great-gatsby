@@ -9,7 +9,7 @@ module.exports = {
     titleTemplate: "%s · Goosebumps Collective",
     description: `Freelance Web Development & Curated Music`,
     url: "https://goosebumps.co.zw",
-    image: `/img/orange.jpg`,
+    image: `/goose.png`,
     author: `@txndai`,
   },
   plugins: [
