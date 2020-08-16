@@ -31,7 +31,11 @@ h1 {
     src: url(/src/fonts/Circular/CircularStd-Medium.otf);
   } */
 
-
+  /* to make sure code snippets don't overflow out of mobile viewport width */
+  code[class*="language-"],
+  pre[class*="language-"] {
+    max-width: 95vw;
+  }
 
   body {
     font-family: 'Circular-Book';

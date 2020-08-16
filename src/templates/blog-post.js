@@ -23,7 +23,7 @@ export default function Template({data}) {
               <h1 className=''>{post.frontmatter.title}</h1>
               <h5>By {post.frontmatter.author}</h5>
               <h5>On {post.frontmatter.date}</h5>
-              <div className='danger' dangerouslySetInnerHTML={{__html: post.html}}/>
+              <div className='danger ' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
         </Layout>
     )
