@@ -31,10 +31,12 @@ module.exports = {
         ],
       },
     },
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-responsive-iframe`],
+            plugins: [`gatsby-remark-responsive-iframe`, `gatsby-remark-prismjs`,],
+        
       },
     },
     //posts

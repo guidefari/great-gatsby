@@ -52,6 +52,7 @@ const {
 
 siteMetadata (containing default/fallback values) in the SEO component comes from the static graphql query:
 
+
 ```jsx
 const query = graphql`
   query SEO {
@@ -68,6 +69,7 @@ const query = graphql`
   }
 `
 ```
+
 
 the query gets the data from gatsby-config.js:
 
