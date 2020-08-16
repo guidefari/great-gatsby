@@ -1,2 +1,2 @@
 import "./src/css/style.css";
-require("prismjs/themes/material-oceanic.css");
+require("./src/css/material-oceanic.css");
