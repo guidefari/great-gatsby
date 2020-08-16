@@ -39,6 +39,6 @@ What I've tried is [Toneden](https://www.toneden.io/), and I've had nothing but 
 
 That's it, you can now reach a wider audience. and since you made it to the end, [here](https://goosebumps.fanlink.to/guestmix)'s the landing page for the last playlist I shared with Soundiiz & Toneden.
 
-Oh, I can also embed it:
+<span class="hidden md:block">Oh, I can also embed it:</span>
 
-<iframe src="https://goosebumps.fanlink.to/guestmix?embed=true" allowfullscreen style="border-radius:3px" frameborder="0" height="900" width="480"></iframe>
+<iframe class="hidden md:block" src="https://goosebumps.fanlink.to/guestmix?embed=true" allowfullscreen style="border-radius:3px" frameborder="0" height="900" width="480"></iframe>
