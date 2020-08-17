@@ -5,6 +5,45 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+
+    typography: {
+      default: {
+        css: {
+          color: '#e2e8f0',
+          a: {
+            color: '#F5CB5C',
+            '&:hover': {
+              color: '#E4CC7D',
+            },
+          },
+          h1: {
+            color: '#707270',
+          },
+          h2: {
+            color: '#707270',
+          },
+          h3: {
+            color: '#707270',
+          },
+          h4: {
+            color: '#707270',
+          },
+          h5: {
+            color: '#a0aec0',
+          },
+          h6: {
+            color: '#a0aec0',
+          },
+          blockquote: {
+            color: '#707270',
+          },
+          strong: {
+            color: '#707270',
+          },
+        },
+      },
+    },
+
     screens: {
       sm: '640px',
       md: '768px',

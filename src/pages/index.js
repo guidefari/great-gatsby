@@ -32,11 +32,11 @@ function IndexPage({data}) {
             src={Hero}
           />
     
-          <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400 text-custom-gray-bg">
+          <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-custom-yellow-500 text-custom-gray-bg">
             Welcome to GooseBumps Collective
           </h2>
           <br/>
-          <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-yellow-400 text-custom-gray-bg"> Web Development & Music </h3>
+          <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-custom-yellow-500 text-custom-gray-bg"> Web Development & Music </h3>
         </div>
         <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
             <PortfolioCard data={data.portfolio.edges}/> 
