@@ -3,12 +3,12 @@ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import HomeLayout from "../components/HomeLayout";
 import SEO from "../components/seo";
-import Hero from "../images/space.svg";
+import Hero from "../images/space2.svg";
 import Feature from "../components/featureContainer";
 import PortfolioCard from "../components/portfolioCard";
 import PlaylistCard from "../components/playlistCard";
 import MixCard from "../components/mixCard";
-import seoImage from '../../static/img/orange.jpg'
+import seoImage from '../../static/goose.png'
 
 
 function IndexPage({data}) {
