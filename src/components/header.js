@@ -15,10 +15,10 @@ function Header() {
   `);
 
   return (
-    <header className="bg-transparent">
+    <header className="bg-transparent text-secondary-gray-50">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
-          <h1 className="flex items-center mb-0 text-white no-underline">
+          <h1 className="flex items-center mb-0 no-underline">
           <img
           alt="Cat and human sitting on a couch"
           className="w-8 mr-2 "
@@ -31,7 +31,7 @@ function Header() {
         </Link>
 
         <button
-          className="flex items-center block px-3 py-2 mb-4 text-white rounded focus:outline-none md:hidden"
+          className="flex items-center block px-3 py-2 mb-4 rounded focus:outline-none md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -64,7 +64,7 @@ function Header() {
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-center text-white no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-center no-underline md:inline-block md:mt-0 md:ml-6 hover:text-custom-yellow-500 link-transition"
               key={link.title}
               to={link.route}
             >

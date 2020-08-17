@@ -20,7 +20,7 @@ const AboutPage = () =>
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col justify-center max-w-md md:w-1/2">
                 <div className="text-2xl font-black underline uppercase md:text-5xl font-circular-bold">About</div>
-                <div className="mt-4 text-xl">Built by: <a className="bg-yellow-300 hover:bg-yellow-400" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
+                <div className="mt-4 text-xl">Built by: <a className=" link-transition bg-custom-off-yellow-500 text-custom-gray-seconday hover:bg-custom-yellow-400" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
                     Built using: 
                     <ul>
                         <li><a className="bg-yellow-300 hover:bg-yellow-400" href="https://www.gatsbyjs.org/"> Gatsby</a></li>
@@ -37,9 +37,9 @@ const AboutPage = () =>
             </div>
             <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
                 <div className="pattern">
-                    <div className="z-10 max-w-md mt-6 ml-4 bg-white rounded-full shadow-2xl">
+                    <div className="z-10 max-w-md mt-6 ml-4 rounded-full shadow-2xl bg-secondary-gray-500">
                         <img alt="Guide Fari" className="rounded-lg" src={portrait}></img>
-                        <div className="p-10 text-xl bg-white rounded-lg">
+                        <div className="p-10 text-xl rounded-lg bg-secondary-gray-500">
                           <blockquote>
                             This site was born out of necessity, mainly as a site for me to practice what I learn on the
                             Web Development journey, and to serve as a central house for music related content & other
