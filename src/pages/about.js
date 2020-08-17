@@ -21,12 +21,11 @@ const AboutPage = () =>
             <div className="flex flex-col justify-center max-w-md md:w-1/2">
                 <div className="text-2xl font-black underline uppercase md:text-5xl font-circular-bold">About</div>
                 <div className="mt-4 text-xl">Built by: <a className=" link-transition about-link" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
-                    Built using: 
+                    Tech used: 
                     <ul>
                         <li><a className="about-link link-transition" href="https://www.gatsbyjs.org/"> Gatsby</a></li>
                         <strike><li><a className="about-link link-transition" href="https://vuejs.org/"> Vue</a></li></strike>
                         <li><a className="about-link link-transition" href="https://tailwindcss.com/"> TailwindCSS</a></li>
-                        <li><a className="about-link link-transition" href="https://webpack.js.org/"> WebPack</a></li>
                         <strike><li><a className="about-link link-transition" href="https://parceljs.org/">ParcelJS</a></li></strike>
                         <li><a className="about-link link-transition" href="https://www.netlify.com/">Netlify</a></li>
                     </ul> <br></br><br></br>
