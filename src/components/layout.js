@@ -6,10 +6,10 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col justify-between min-h-screen bg-gray-700">
+    <div className="flex flex-col justify-between min-h-screen text-gray-300 bg-custom-gray-bg">
       <Header />
 
-      <main className="flex items-center justify-center w-full max-w-4xl px-4 py-8 mx-auto overflow-x-scroll md:px-8 md:py-16">
+      <main className="flex items-center justify-center w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
       </main>
 

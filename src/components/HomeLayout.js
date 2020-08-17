@@ -7,7 +7,7 @@ import Header from "./header";
 
 function HomeLayout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen text-gray-900 bg-gray-700 font-circular-black">
+    <div className="flex flex-col min-h-screen text-gray-300 bg-custom-gray-bg font-circular-black">
       <Header />
 
       <main className="flex-1 w-full max-w-full py-8 mx-auto md:py-16">
@@ -21,7 +21,7 @@ function HomeLayout({ children }) {
           <a href="https://linktr.ee/goosebumps" className="ml-1 text-black hover:bg-yellow-300 " target="_blank"
             rel="noopener noreferrer">Social Links</a>
         </p>
-        <p className='text-sm text-center text-gray-700 sm:text-left'> Powered by:<a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer"><img className='inline-block w-16 h-4 text-sm text-center text-gray-700 transition duration-300 ease-out transform hover:scale-105 sm:text-left sm:w-20' src={gatsbylogo} alt="" /></a></p>
+        <p className='text-sm text-center text-gray-700 sm:text-left'> Powered by:<a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer"><img className='inline-block w-16 h-4 text-sm text-center text-gray-700 link-transition hover:scale-105 sm:text-left sm:w-20' src={gatsbylogo} alt="" /></a></p>
       </div>
       
     </div>

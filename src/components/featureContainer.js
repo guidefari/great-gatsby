@@ -6,13 +6,13 @@ const featureContainer = ({bigHead, smallHead, children}) => {
     // console.log(data)
 
     return (
-    <section className="pb-24 text-gray-870 body-font border-gray-200 w-full">
-        <div className="flex flex-col mt-24 text-center w-full mb-20">
-            <h2 className="text-xs text-orange-400 tracking-widest font-medium title-font mb-1 uppercase">{smallHead}</h2>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">{bigHead}</h1>
+    <section className="w-full pb-24 border-gray-200 text-gray-870 body-font">
+        <div className="flex flex-col w-full mt-24 mb-20 text-center">
+            <h2 className="mb-1 text-xs font-medium tracking-widest uppercase text-custom-off-yellow-500 title-font">{smallHead}</h2>
+            <h1 className="text-2xl font-medium text-gray-400 sm:text-3xl title-font">{bigHead}</h1>
         </div>
         
-        <div id="cardContainer" className="flex flex-no-wrap  overflow-x-auto scrolling-touch">
+        <div id="cardContainer" className="flex flex-no-wrap overflow-x-auto scrolling-touch">
             
                 {children} 
             

@@ -5,6 +5,45 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+
+    typography: {
+      default: {
+        css: {
+          color: '#e2e8f0',
+          a: {
+            color: '#F5CB5C',
+            '&:hover': {
+              color: '#E4CC7D',
+            },
+          },
+          h1: {
+            color: '#707270',
+          },
+          h2: {
+            color: '#707270',
+          },
+          h3: {
+            color: '#707270',
+          },
+          h4: {
+            color: '#707270',
+          },
+          h5: {
+            color: '#a0aec0',
+          },
+          h6: {
+            color: '#a0aec0',
+          },
+          blockquote: {
+            color: '#707270',
+          },
+          strong: {
+            color: '#707270',
+          },
+        },
+      },
+    },
+
     screens: {
       sm: '640px',
       md: '768px',
@@ -17,6 +56,76 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+
+      custom: {
+        'gray-bg': '#242423',
+        'gray-seconday': '#333533'
+      },
+
+      'primary-gray': {
+        50: '#F4F4F4',
+        100: '#E9E9E9',
+        200: '#C8C8C8',
+        300: '#A7A7A7',
+        400: '#666665',
+        500: '#242423',
+        600: '#202020',
+        700: '#161615',
+        800: '#101010',
+        900: '#0B0B0B',
+        },
+
+      'secondary-gray': {
+        50: '#F5F5F5',
+        100: '#EBEBEB',
+        200: '#CCCDCC',
+        300: '#ADAEAD',
+        400: '#707270',
+        500: '#333533',
+        600: '#2E302E',
+        700: '#1F201F',
+        800: '#171817',
+        900: '#0F100F',
+        },
+
+      'custom-yellow': {
+        50: '#FFFCF7',
+        100: '#FEFAEF',
+        200: '#FDF2D6',
+        300: '#FBEABE',
+        400: '#F8DB8D',
+        500: '#F5CB5C',
+        600: '#DDB753',
+        700: '#937A37',
+        800: '#6E5B29',
+        900: '#4A3D1C',
+        },
+
+      'custom-off-yellow': {
+        50: '#FEFCF9',
+        100: '#FCFAF2',
+        200: '#F8F2DF',
+        300: '#F4EBCB',
+        400: '#ECDBA4',
+        500: '#E4CC7D',
+        600: '#CDB871',
+        700: '#897A4B',
+        800: '#675C38',
+        900: '#443D26',
+        },
+
+      'custom-olive': {
+        50: '#FAFBF8',
+        100: '#F5F6F1',
+        200: '#E5EADC',
+        300: '#D5DDC7',
+        400: '#B6C39D',
+        500: '#97A973',
+        600: '#889868',
+        700: '#5B6545',
+        800: '#444C34',
+        900: '#2D3323',
+        },
 
       gray: {
         100: '#f7fafc',
