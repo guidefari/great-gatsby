@@ -14,6 +14,10 @@ If you need to quickly reach out for music that's entertaining, but won't be a d
 
 [Musicforprogramming](http://musicforprogramming.net/) - a project by [datasette](https://open.spotify.com/artist/5bTaUOrBY8IWCwW12jCU5U?si=ctI0K6ETRme7GHeq8-S9HA), featuring 60 mixes of ambient music.  I love everything about this website, and I plan on listening to all the mixes on there.
 
+# Bandcamp
+
+[shipwreck detective - Live at Man vs Machine](https://shipwreckdetective.bandcamp.com/album/live-at-man-vs-maschine) - "An hour and nine-minute performance recorded live in one take for Man vs Maschine - an online global streaming festival created during the COVID-19 pandemic to showcase and connect through experimental music."
+
 # Spotify
 
 [Ambient](https://open.spotify.com/playlist/5vhNkJdvdPCs7GhLZDJ7R5?si=CTAwcZP5S-OcyW5F4weyGg) - distraction free playlist for coding. <br/>
