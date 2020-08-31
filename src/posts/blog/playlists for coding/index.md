@@ -3,8 +3,8 @@ path: "/playlists-for-coding"
 date: "2020-08-15"
 image: "./feature.jpg"
 category: "web"
-title: "Playlists for coding"
-summary: "Distraction-free(mostly) playlists that wont get in the way of concentrated work."
+title: "Music for coding"
+summary: "Distraction-free(mostly) playlists, albums, & livesets that wont get in the way of concentrated work."
 author: "GT Fari"
 article: "true"
 ---
@@ -46,6 +46,7 @@ If you need to quickly reach out for music that's entertaining, but won't be a d
 [Music for cars, couches + headphones](https://open.spotify.com/playlist/0ZTTZHTzHu7lsdvVzyOoN7?si=MvsP0Q1PQW2m4rn4SyYXKg) - ambient, experimental music, updated regularly & curated by [Dave DK](https://open.spotify.com/user/djdavedk?si=ZMmUOr9oT2W9GeQlHRgWzQ)<br/>
 [Jon Hopkins: Quiet](https://open.spotify.com/playlist/7zqgNYvLCA95juac1CHlNP?si=ptNn058YQuO8YWI7JqBahA): " I started building this playlist a few years ago just for myself and friends, as a way of collecting and sharing ambient music I loved. I've been using it for meditations and psychedelic journeys for ages. With everything that is happening right now this felt like the right time to make it public" - [Jon Hopkins](https://open.spotify.com/user/jon_hopkins_official?si=eN_V3T6NSXm1-bXbHpkHqw). <br/>
 [The Complete B Stank](https://open.spotify.com/playlist/5HGeArn1Q4mLNxWmzjPnX7?si=rdmWprbOT5y_3hLKGk4IJQ) - chill indie music. curated by [Brad Stank](https://open.spotify.com/user/1156505345?si=UEsDSHYrSe2My3Qo-RvxDw) (there's more playlists to explore on this profile).<br/> 
+[Boards of Canada - Music has the right to children](https://open.spotify.com/album/1vWnB0hYmluskQuzxwo25a?si=6hVe7RFETVeNQusb4Rhk-Q) - Timeless album, released in 1998, Ambient & Downtempo.
 
 # Youtube
 
