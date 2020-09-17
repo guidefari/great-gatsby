@@ -60,7 +60,6 @@ module.exports = {
         icon: `src/images/gb.png`,
       },
     },
-    `gatsby-plugin-offline`,
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
