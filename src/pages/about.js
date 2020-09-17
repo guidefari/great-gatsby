@@ -20,18 +20,18 @@ const AboutPage = () =>
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col justify-center max-w-md md:w-1/2">
                 <div className="text-2xl font-black underline uppercase md:text-5xl font-circular-bold">About</div>
-                <div className="mt-4 text-xl">Built by: <a className=" link-transition about-link" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
+                <div className="mt-4 text-xl">Built by: <a rel="noopener noreferrer" className=" link-transition about-link" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
                     Tech used: 
                     <ul>
-                        <li><a className="about-link link-transition" href="https://www.gatsbyjs.org/"> Gatsby</a></li>
-                        <strike><li><a className="about-link link-transition" href="https://vuejs.org/"> Vue</a></li></strike>
-                        <li><a className="about-link link-transition" href="https://tailwindcss.com/"> TailwindCSS</a></li>
-                        <strike><li><a className="about-link link-transition" href="https://parceljs.org/">ParcelJS</a></li></strike>
-                        <li><a className="about-link link-transition" href="https://www.netlify.com/">Netlify</a></li>
+                        <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://www.gatsbyjs.org/"> Gatsby</a></li>
+                        <strike><li><a rel="noopener noreferrer" className="about-link link-transition" href="https://vuejs.org/"> Vue</a></li></strike>
+                        <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://tailwindcss.com/"> TailwindCSS</a></li>
+                        <strike><li><a rel="noopener noreferrer" className="about-link link-transition" href="https://parceljs.org/">ParcelJS</a></li></strike>
+                        <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://www.netlify.com/">Netlify</a></li>
                     </ul> <br></br><br></br>
-                    <p>Don&#39;t be shy to say hi or shoot through any suggestions right <a className="about-link link-transition" href="https://linktr.ee/goosebumps">here</a>😁</p>
+                    <p>Don&#39;t be shy to say hi or shoot through any suggestions right <a rel="noopener noreferrer" className="about-link link-transition" href="https://linktr.ee/goosebumps">here</a>😁</p>
                     <p>Check out the <Link className="about-link link-transition" to="/blog"> blog</Link> for extended thoughts on this & that.</p><br/>
-                    <p>Did I mention that this site is open source? You can find the repo <a className="about-link link-transition" href='https://github.com/txndai/great-gatsby'>here</a></p>
+                    <p>Did I mention that this site is open source? You can find the repo <a rel="noopener noreferrer" className="about-link link-transition" href='https://github.com/txndai/great-gatsby'>here</a></p>
                 </div>
             </div>
             <div className="flex w-full -mt-5 md:justify-end md:w-1/2">

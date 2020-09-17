@@ -22,7 +22,7 @@ const  portfolioCard = ({ data }) => {
             </div>
         </div>
         <div className="flex flex-col justify-center w-48 h-56 m-auto align-middle md:w-4/12 md:h-auto">
-          <a href={item.node.frontmatter.external}>
+          <a rel="noopener noreferrer" href={item.node.frontmatter.external}>
             <img src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  />
           </a>
         </div>
