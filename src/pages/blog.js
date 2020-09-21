@@ -41,7 +41,7 @@ BlogPage.propTypes = {
 
 export const pageQuery = graphql`
 query blogQuery {
-  allMarkdownRemark(filter: {frontmatter: {article: {eq: "true"}}}) {
+  allMarkdownRemark(filter: {frontmatter: {article: {eq: "true"}}}, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
         id
