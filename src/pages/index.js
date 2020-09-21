@@ -27,16 +27,16 @@ function IndexPage({data}) {
       <section className="text-center">
         <div className="inline-block max-h-screen">
           <img
-            alt="Cat and human sitting on a couch"
+            alt="Man with headphones in space"
             className="block w-full mx-auto mb-8 md:max-w-eighty"
             src={Hero}
           />
     
-          <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-custom-yellow-500 text-custom-gray-bg">
+          <h2 className="inline-block p-3 mb-4 text-2xl font-bold rounded-md bg-custom-yellow-500 text-custom-gray-bg">
             Welcome to GooseBumps Collective
           </h2>
           <br/>
-          <h3 className="inline-block p-3 mb-4 text-xl font-bold bg-custom-yellow-500 text-custom-gray-bg"> Web Development & Music </h3>
+          <h3 className="inline-block p-3 mb-4 text-xl font-bold rounded-md bg-custom-yellow-500 text-custom-gray-bg"> Web Development & Music </h3>
         </div>
         <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
             <PortfolioCard data={data.portfolio.edges}/> 
