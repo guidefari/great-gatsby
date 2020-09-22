@@ -29,7 +29,6 @@ const AboutPage = () =>
                         <strike><li><a rel="noopener noreferrer" className="about-link link-transition" href="https://parceljs.org/">ParcelJS</a></li></strike>
                         <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://www.netlify.com/">Netlify</a></li>
                     </ul> <br></br><br></br>
-                    <p>Don&#39;t be shy to say hi or shoot through any suggestions right <a rel="noopener noreferrer" className="about-link link-transition" href="https://linktr.ee/goosebumps">here</a>😁</p>
                     <p>Check out the <Link className="about-link link-transition" to="/blog"> blog</Link> for extended thoughts on this & that.</p><br/>
                     <p>Did I mention that this site is open source? You can find the repo <a rel="noopener noreferrer" className="about-link link-transition" href='https://github.com/txndai/great-gatsby'>here</a></p>
                 </div>
