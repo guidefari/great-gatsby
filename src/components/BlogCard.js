@@ -11,7 +11,7 @@ const BlogCard = ({category, title, summary, path, image}) => {
     return (
         <div className='flex flex-col justify-between h-full'>
           <div className="h-full overflow-hidden rounded-lg shadow-lg ">
-            <Img className='md:min-h-48 lg:min-h-72' fluid={image} />
+            <Img className='md:min-h-48 lg:min-h-72 ' fluid={image} />
             <div className="flex flex-col justify-between p-6 bg-custom-gray-seconday min-h-sm lg:min-h-xs max-h-xs">
               <div>
                 <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
