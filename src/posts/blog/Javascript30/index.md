@@ -99,11 +99,11 @@ console.log(sum(...numbers));
 # Custom HTML5 player
 
 ```js
-    progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
+progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
 ```
 note on the function: if `mousedown` is true, it moves on to the other end of the operator. the logic being executed here is basically:
 ```js
-    progress.addEventListener('mousemove', (e) => mousedown ? scrub(e) : false);
+progress.addEventListener('mousemove', (e) => mousedown ? scrub(e) : false);
 ```
 
 That's all for now :)
