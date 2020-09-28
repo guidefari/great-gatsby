@@ -14,8 +14,8 @@ const BlogCard = ({category, title, summary, path, image}) => {
             <Img className='md:min-h-48 lg:min-h-72 ' fluid={image} />
             <div className="flex flex-col justify-between p-6 bg-custom-gray-seconday min-h-sm lg:min-h-xs max-h-xs">
               <div>
-                <h2 className="mb-1 text-xs font-medium tracking-widest title-font">{category}</h2>
-                <h1 className="mb-3 text-xl font-semibold text-custom-olive-500 lg:h-12 title-font">{title}</h1>
+                {category.map((cat) => ( <span key={cat} className="mb-1 mr-2 text-xs font-medium tracking-widest title-font">{cat}</span> ) )}
+                <h1 className="mb-3 overflow-y-auto text-xl font-semibold text-custom-olive-500 lg:h-12 title-font">{title}</h1>
                 <p className="mb-3 leading-relaxed text-gray-400">{summary}</p>
               </div>
               <div className="flex flex-wrap items-center ">

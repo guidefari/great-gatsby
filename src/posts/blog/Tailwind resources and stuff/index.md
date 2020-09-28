@@ -2,7 +2,7 @@
 path: "/tailwind-resources"
 date: "2020-09-23"
 image: "./tailwind.jpg"
-category: "web"
+category: ["web"]
 title: "Tailwind Resources"
 summary: "A bunch of sites/resources I constantly reach out to for inspiration when using tailwind, which is like all the time"
 author: "GT Fari"

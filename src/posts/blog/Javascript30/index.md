@@ -2,7 +2,7 @@
 path: "/finishing-up-javascript-30"
 date: "2020-09-25"
 image: "./feature.jpg"
-category: "TIL"
+category: ["TIL"]
 title: "Finishing up Javascript 30"
 summary: "An attempt to make a habit of finishing courses. A few notes on interesting bits & stuff thought's I'd love to bookmark"
 author: "GT Fari"

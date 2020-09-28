@@ -2,7 +2,7 @@
 path: "/playlists-for-coding"
 date: "2020-08-15"
 image: "./feature.jpg"
-category: "web"
+category: ["web", "music"]
 title: "Music for coding"
 summary: "Distraction-free(mostly) playlists, albums, & livesets that wont get in the way of concentrated work."
 author: "GT Fari"

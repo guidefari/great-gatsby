@@ -1,7 +1,7 @@
 ---
 path: "/extended-thoughts-tue-22-september-2020"
 date: "2020-09-22"
-category: "log"
+category: ["log"]
 title: "Extended Thoughts(Tuesday 22 September)"
 summary: "Notes on Cal Newport's 'Deep Work', my 'Ambient' playlist, Frontend Happy Hour, Syntaxfm & more 🤷?"
 image: "./joshua-gresham.jpg"

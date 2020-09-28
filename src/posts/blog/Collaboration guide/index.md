@@ -1,7 +1,7 @@
 ---
 path: "/collaboration-resources"
 date: "2020-07-15"
-category: "music"
+category: ["music"]
 title: "Collaboration Guide for Indie artists in Zim"
 summary: "A quick introduction on how to approach collaborations in Zimbabwe."
 image: "./feature.jpg"

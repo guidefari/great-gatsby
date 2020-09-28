@@ -1,7 +1,7 @@
 ---
 path: "/extended-thoughts-thur-24-september-2020"
 date: "2020-09-24"
-category: "log"
+category: ["log", "UI"]
 title: "Extended Thoughts(Thursday 24 September)"
 summary: "Notes on Refactoring UI & more 🤷?"
 image: "./feature.jpg"
