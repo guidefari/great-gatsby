@@ -12,3 +12,4 @@ article: "true"
 ### [Deezer](https://deezer.page.link/YeuPVM97euwFnHgv7)
 ### [Spotify](https://open.spotify.com/playlist/5cj3uPGwcFAtemZKoS142w?si=mCHs7IR0QTms7huqzmNGsw)
 ### [Youtube](https://www.youtube.com/playlist?list=PLy64tqMRKcJRdMdPsbnQBfleD-qC7uRHP)
+- Youtube is where most of Rodwell's recommendations are
