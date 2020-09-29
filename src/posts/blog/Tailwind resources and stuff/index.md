@@ -17,5 +17,6 @@ article: "true"
 7. [Awesome tailwind](https://github.com/aniftyco/awesome-tailwindcss)
 8. [kutty](https://kutty.netlify.app/docs/) - this has [header components](https://kutty.netlify.app/components/headers/) with nice hamburger menu.
 9. [theme switcher](https://github.com/huphtur/tailwind-theme-switcher) example code
+10. [tailwind run](https://tailwind.run/new) - simple to use tailwind sandbox; super quick; intellisense
 
 > note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.
