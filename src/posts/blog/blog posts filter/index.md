@@ -170,3 +170,5 @@ const filtered = data.posts.edges.filter((post)=> post.node.frontmatter.category
 ))}
 ```
 Using a ternary operator, I check `catFilter` for a [truthy](https://www.freecodecamp.org/news/falsy-values-in-javascript/), in order to render the `filtered` array, else it renders all blog posts, if a [falsy](https://www.freecodecamp.org/news/falsy-values-in-javascript/) is returned. 
+
+The code is messy, but it does **exactly** what I want, which is nice.
