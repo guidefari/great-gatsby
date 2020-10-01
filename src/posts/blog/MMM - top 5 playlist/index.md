@@ -3,7 +3,7 @@ path: "/top5-top5-top5"
 date: "2020-09-28"
 image: "./feature.jpg"
 category: ["playlist", "podcast"]
-title: "MMM Playlist - top 5 top 5 top 5 "
+title: "Playlist - top 5 top 5 top 5 "
 summary: "Me Myself & the Music Playlist - Sindiso, Captain Roddy & Guide share their top 5 tracks right now."
 author: "GT Fari"
 article: "true"
