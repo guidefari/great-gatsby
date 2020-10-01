@@ -26,7 +26,7 @@ function BlogPage  ({ data }) {
     // populating the initial array with post categories
     initialCatArray = initialCatArray.concat(post.frontmatter.category)
   });
-  // console.log(initialCatArray)
+  // console.log(`this is ${initialCatArray}`)
   // console.log(countCategoryAppearance(initialCatArray))
   const theKeys = Object.keys(countCategoryAppearance(initialCatArray))
   // console.log(theKeys)
@@ -44,14 +44,18 @@ function BlogPage  ({ data }) {
       />
     <section className="text-gray-200 body-font">
     <div className="container px-5 py-24 mx-auto">
-
-    {theKeys.map(category => (
-      <button onClick={()=> setFilter(category)} 
-        key={category} 
-        className='mr-3 link-colors link-transition'>
-          {category}
-        </button>
-    ))}
+      <div className='flex items-center justify-center mx-auto mb-5'>
+        <span className='inline-block mx-auto text-sm'>
+          <button onClick={()=> setFilter('')} className='mr-3 uppercase focus:outline-none link-colors link-transition'>All</button>
+          {theKeys.map(category => (
+            <button onClick={()=> setFilter(category)} 
+              key={category} 
+              className='mr-3 uppercase focus:outline-none link-colors link-transition'>
+                {category}
+              </button>
+          ))}
+        </span>
+      </div>
 
     <div className='flex flex-wrap -m-4'>
       {

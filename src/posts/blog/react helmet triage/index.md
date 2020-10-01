@@ -2,7 +2,7 @@
 path: "/react-helmet-struggle"
 date: "2020-08-15"
 image: "./feature.jpg"
-category: ["web"]
+category: ["gatsby", "documentation"]
 title: "My social card struggle with React Helmet"
 summary: "A breakdown of the problem I've faced whilst trying to get my links to turn into sharing cards when shared on social media."
 author: "GT Fari"

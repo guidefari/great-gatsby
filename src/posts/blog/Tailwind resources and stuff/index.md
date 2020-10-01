@@ -10,7 +10,7 @@ article: "true"
 ---
 
 1. [generate tailwind color palette](https://javisperez.github.io/tailwindcolorshades/#/)
-3. [Meraki UI](https://merakiui.com/alerts)
+3. [Meraki UI](https://merakiui.com)
 4. [Tailblocks](https://mertjf.github.io/tailblocks/)
 5. [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation)
 6. [tailwindcomponents](https://tailwindcomponents.com/)
@@ -18,5 +18,7 @@ article: "true"
 8. [kutty](https://kutty.netlify.app/docs/) - this has [header components](https://kutty.netlify.app/components/headers/) with nice hamburger menu.
 9. [theme switcher](https://github.com/huphtur/tailwind-theme-switcher) example code
 10. [tailwind run](https://tailwind.run/new) - simple to use tailwind sandbox; super quick; intellisense
+11. [Kitwind](https://kitwind.io) - A whole bunch of components(130+), written as HTML, Vue, & React😎
+12. [Tails/Devdojo](https://devdojo.com/tailwindcss/components) - more components
 
 > note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.
