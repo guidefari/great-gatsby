@@ -64,4 +64,5 @@ Quality production 👌🏾
 ## SGVO, Dwson - Time [🔗](https://youtu.be/INC-PtaLOIU?list=TLPQMDMxMDIwMjCORiZPTQ94FA)
 `deep house` `SA` `almost-but-not-quite-amapiano` <br>
 ![SGVO, Dwson - Time](https://i.scdn.co/image/ab67616d00001e028fe1375970e98b3a0e5ef86c)
+SGVO recently dropped an album, it's been lovely to experience the man level up his sound with each release.
 
