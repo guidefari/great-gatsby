@@ -27,8 +27,8 @@ Just when I thought I'd exhausted Jonwayne's discography, I've started bumping i
 ![Groundislava, Jonwayne, Shlohmo - Shlava](https://i.scdn.co/image/ab67616d00001e02a3bd2c1539bb9d5a36ed0e07)
 
 - ### Samiyam, Jonwayne - What Can I do [🔗](https://youtu.be/XWSUbK0r_r8?list=TLPQMDMxMDIwMjCORiZPTQ94FA)
-![Samiyam, Jonwayne - What Can I do](https://i.scdn.co/image/ab67616d00001e02d50ac5c93176ec08a96ed239)
 `glitch` `wonky` `bass`
+![Samiyam, Jonwayne - What Can I do](https://i.scdn.co/image/ab67616d00001e02d50ac5c93176ec08a96ed239)
 <br/>
 
 ## Samiyam - calisthenics [🔗](https://youtu.be/oxuV6zyemWI?list=TLPQMDMxMDIwMjCORiZPTQ94FA)
