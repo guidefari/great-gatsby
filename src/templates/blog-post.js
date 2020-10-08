@@ -14,9 +14,9 @@ export default function Template({data}) {
           <SEO 
             title={post.frontmatter.title}
             description={post.frontmatter.summary || post.excerpt || 'nothin’'}
-            pathname={post.frontmatter.path}
+            // pathname={post.frontmatter.path}
             image={post.frontmatter.image.childImageSharp.fluid.src || 'nothin’'}
-            article />
+             />
             
           <div className='prose text-gray-400 lg:prose-xl'> 
               <h5>{post.frontmatter.date}</h5>

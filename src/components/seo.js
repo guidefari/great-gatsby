@@ -1,64 +1,103 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useLocation } from "@reach/router"
+// import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 // import img from '../images/gb.png'
 
-const SEO = ({ title, description, image, article }) => {
-  const { pathname } = useLocation()
+const SEO = ({ description, lang, meta, keywords, title, image }) => {
+  // const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
 
   const {
-    defaultTitle,
-    titleTemplate,
-    defaultDescription,
+    // defaultTitle,
+    // titleTemplate,
+    // defaultDescription,
     siteUrl,
     defaultImage,
-    twitterUsername,
+    // twitterUsername,
   } = site.siteMetadata
 
   console.log(defaultImage)
 
-  const seo = {
-    title: title || defaultTitle,
-    description: description || defaultDescription,
-    image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`,
-  }
+  // const seo = {
+  //   title: title || defaultTitle,
+  //   description: description || defaultDescription,
+  //   image: `${siteUrl}${image || defaultImage}`,
+  //   url: `${siteUrl}${pathname}`,
+  // }
+
+  const metaDescription = description || site.siteMetadata.description;
+  const seoImage = `${siteUrl}${image || defaultImage}`;
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
-      <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
-
-      {seo.url && <meta property="og:url" content={seo.url} />}
-
-      {(article ? true : null) && <meta property="og:type" content="article" />}
-
-      {seo.title && <meta property="og:title" content={seo.title} />}
-
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-
-      {seo.image && <meta property="og:image" content={seo.image} />}
-
-      <meta name="twitter:card" content="summary_large_image" />
-
-      {twitterUsername && (
-        <meta name="twitter:creator" content={twitterUsername} />
-      )}
-
-      {seo.title && <meta name="twitter:title" content={seo.title} />}
-
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
-
-      {seo.image && <meta name="twitter:image" content={seo.image} />}
-    </Helmet>
+    <Helmet
+    htmlAttributes={{
+      lang,
+    }}
+    meta={[
+      {
+        property: `og:title`,
+        content: title,
+      },
+      {
+        name: `description`,
+        content: metaDescription,
+      },
+      {
+        property: `og:description`,
+        content: metaDescription,
+      },
+      {
+        property: `og:type`,
+        content: `website`,
+      },
+      {
+        property: `og:url`,
+        content: siteUrl,
+      },
+      {
+        name: `twitter:card`,
+        content: `summary`,
+      },
+      {
+        name: `twitter:creator`,
+        content: site.siteMetadata.author,
+      },
+      {
+        name: `twitter:title`,
+        content: title,
+      },
+      {
+        name: `twitter:description`,
+        content: metaDescription,
+      },
+      {
+        name: `image`,
+        content: seoImage,
+      },
+      {
+        property: `og:image`,
+        content: seoImage,
+      },
+      {
+        name: `twitter:image`,
+        content: seoImage,
+      },
+    ]
+      .concat(
+        keywords.length > 0
+          ? {
+              name: `keywords`,
+              content: keywords.join(`, `),
+            }
+          : []
+      )
+      .concat(meta)}
+    title={title}
+    titleTemplate={`%s | ${site.siteMetadata.defaultTitle}`}
+  />
   )
 }
 
@@ -81,10 +120,12 @@ const query = graphql`
 
 
 SEO.propTypes = {
-  title: PropTypes.string,
   description: PropTypes.string,
+  keywords: PropTypes.arrayOf(PropTypes.string),
+  lang: PropTypes.string,
+  meta: PropTypes.array,
+  title: PropTypes.string.isRequired,
   image: PropTypes.string,
-  article: PropTypes.bool,
 }
 
 SEO.defaultProps = {
