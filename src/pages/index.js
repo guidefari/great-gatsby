@@ -8,7 +8,7 @@ import Feature from "../components/featureContainer";
 import PortfolioCard from "../components/portfolioCard";
 import PlaylistCard from "../components/playlistCard";
 import MixCard from "../components/mixCard";
-import seoImage from '../../static/goose.png'
+import seoImage from '../images/gb.png'
 
 
 function IndexPage({data}) {
@@ -21,7 +21,7 @@ function IndexPage({data}) {
         title="Home"
         image={seoImage}
         url='https://goosebumps.co.zw/'
-        pathname=""
+        description='Freelance Web Development and Curated music'
       />
 
       <section className="text-center">

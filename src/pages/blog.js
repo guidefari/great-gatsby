@@ -41,6 +41,7 @@ function BlogPage  ({ data }) {
         keywords={[`software`,`blog`, `frontend`, `development`, `music`, `playlists`]}
         title="Blog posts"
         pathname="/blog"
+        description='Some words.'
       />
     <section className="text-gray-200 body-font">
     <div className="container px-5 py-24 mx-auto">

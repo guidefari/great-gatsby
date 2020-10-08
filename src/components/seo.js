@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
+// import img from '../images/gb.png'
 
 const SEO = ({ title, description, image, article }) => {
   const { pathname } = useLocation()
@@ -17,6 +18,8 @@ const SEO = ({ title, description, image, article }) => {
     defaultImage,
     twitterUsername,
   } = site.siteMetadata
+
+  console.log(defaultImage)
 
   const seo = {
     title: title || defaultTitle,
@@ -85,8 +88,8 @@ SEO.propTypes = {
 }
 
 SEO.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
+  lang: `en`,
+  keywords: [],
+  meta: [],
   article: false,
 }
