@@ -4,7 +4,7 @@ date: "2020-10-11"
 image: "./feature.jpg"
 category: ["music", "curated"]
 title: "My week in music (Sunday 11 October)"
-summary: "Highlights of tracks I jammed to this week"
+summary: "Courtesy of shuffle"
 author: "GT Fari"
 article: "true"
 ---
