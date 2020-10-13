@@ -19,14 +19,12 @@ export default function Template({data}) {
             article
             />
             
-          <div>
-            <div className='mb-24'>
+          <div className='prose lg:prose-xl'>
               <h5 className='text-sm text-white'>{post.frontmatter.date}</h5>
               <h5 className='text-sm text-white'>{post.frontmatter.author}</h5>
               <h1 className='mt-4 text-center underline heading'>{post.frontmatter.title}</h1>
-            </div>
               {/* <Img className='w-full mb-10' image={post.frontmatter.image} alt={post.frontmatter.title} /> */}
-            <div className='prose lg:prose-xl danger' dangerouslySetInnerHTML={{__html: post.html}}/>
+            <div className=' danger' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
         </Layout>
     )

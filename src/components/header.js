@@ -1,65 +1,25 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
-import React, { useState } from "react";
+import { Link } from "gatsby";
+import React from "react";
 import gbLogo from "../images/gb.png"
 
 function Header() {
-  const [isExpanded, toggleExpansion] = useState(false);
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <header className="bg-transparent text-secondary-gray-50">
-      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
+      <div className="flex flex-wrap items-center max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
-          <h1 className="flex items-center mb-0 no-underline">
-          <img
-          alt="Cat and human sitting on a couch"
-          className="w-8 mr-2 "
-          src={gbLogo}
-        />
-            <span className="text-xl font-bold tracking-tight">
-              {site.siteMetadata.title}
-            </span>
-          </h1>
+          <div className="flex items-center mb-0 no-underline">
+          <img alt="Goosebumps Collective's logo" className="w-8 mr-2" src={gbLogo}/>
+          </div>
         </Link>
 
-        <button
-          className="flex items-center block px-3 py-2 mb-4 rounded focus:outline-none md:hidden"
-          onClick={() => toggleExpansion(!isExpanded)}
-        >
-          <svg
-            className="w-5 h-5 fill-current"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-
-        <nav
-          className={`${
-            isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
-        >
+        <nav className='items-center block w-auto'>
           {[
             {
               route: `/blog`,
               title: `Blog`,
             },
           ].map((link) => (
-            <Link
-              className="block mt-4 text-center no-underline md:inline-block md:mt-0 md:ml-6 hover:text-custom-yellow-500 link-transition"
-              key={link.title}
-              to={link.route}
-            >
+            <Link key={link.title} to={link.route} className="inline-block ml-6 text-center no-underline hover:text-custom-yellow-500 link-transition" >
               {link.title}
             </Link>
           ))}
