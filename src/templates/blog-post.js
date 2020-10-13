@@ -16,6 +16,7 @@ export default function Template({data}) {
             description={post.frontmatter.summary || post.excerpt || 'nothin’'}
             // pathname={post.frontmatter.path}
             image={post.frontmatter.image.childImageSharp.fluid.src || 'nothin’'}
+            article
             />
             
           <div>

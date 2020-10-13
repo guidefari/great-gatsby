@@ -18,9 +18,8 @@ article: "true"
 8. [kutty](https://kutty.netlify.app/docs/) - this has [header components](https://kutty.netlify.app/components/headers/) with nice hamburger menu.
 9. [theme switcher](https://github.com/huphtur/tailwind-theme-switcher) example code
 10. [tailwind play](https://play.tailwindcss.com/) - New tool from Tailwind Labs.
-11. [Kitwind](https://kitwind.io) - A whole bunch of components(130+), written as HTML, Vue, & React😎
-10. [tailwind run](https://tailwind.run/new) - simple to use tailwind sandbox; super quick; intellisense
 11. [Kitwind](https://kitwind.io/products/kometa/components) - A whole bunch of components(130+), written as HTML, Vue, & React😎
 12. [Tails/Devdojo](https://devdojo.com/tailwindcss/components) - more components
+13. [TailwindUI](https://tailwindui.com/components) - HTML components, courtesy of Steve Schoger & Adam Wathan. Some free components here, but mostly paid stuff.
 
 > note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.

@@ -54,14 +54,6 @@ function Header() {
               route: `/blog`,
               title: `Blog`,
             },
-            {
-              route: `/about`,
-              title: `About`,
-            },
-            {
-              route: `/contact`,
-              title: `Contact`,
-            },
           ].map((link) => (
             <Link
               className="block mt-4 text-center no-underline md:inline-block md:mt-0 md:ml-6 hover:text-custom-yellow-500 link-transition"
