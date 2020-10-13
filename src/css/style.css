@@ -1,10 +1,11 @@
 /*! purgecss start ignore */
 @tailwind base;
+@tailwind components;
 
 h1 {
-    @apply text-2xl;
-    @apply mb-4;
-  }
+  @apply text-2xl;
+  @apply mb-4;
+}
   h2 {
     @apply text-xl;
     @apply mb-3;
@@ -21,14 +22,14 @@ h1 {
   /* global styling for the 'Stream' & 'Read full' links  */
   .link-colors{@apply text-custom-yellow-500 ;}
   .link-colors:hover{@apply text-custom-off-yellow-500;}
-
+  
   /* about page text highlight */
   .about-link{@apply text-custom-gray-seconday bg-custom-off-yellow-500;}
   .about-link:hover{@apply scale-105 bg-custom-yellow-400;}
+  .heading{font-size: 5rem; font-weight: bold;}
 
-@tailwind components;
-/*! purgecss end ignore */
-
+  
+  /*! purgecss end ignore */
 @tailwind utilities;
 
 /* @font-face {

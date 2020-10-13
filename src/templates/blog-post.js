@@ -3,7 +3,7 @@ import { graphql, } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from "../components/layout";
 import SEO from '../components/seo'
-import Img from '../components/Img'
+// import Img from '../components/Img'
 
 
 export default function Template({data}) {
@@ -16,14 +16,16 @@ export default function Template({data}) {
             description={post.frontmatter.summary || post.excerpt || 'nothin’'}
             // pathname={post.frontmatter.path}
             image={post.frontmatter.image.childImageSharp.fluid.src || 'nothin’'}
-             />
+            />
             
-          <div className='prose text-gray-400 lg:prose-xl'> 
-              <h5>{post.frontmatter.date}</h5>
-              <h5>{post.frontmatter.author}</h5>
-              <h1 className=''>{post.frontmatter.title}</h1>
-              <Img className='w-full mb-10' image={post.frontmatter.image} alt={post.frontmatter.title} />
-              <div className='danger ' dangerouslySetInnerHTML={{__html: post.html}}/>
+          <div>
+            <div className='mb-24'>
+              <h5 className='text-sm text-white'>{post.frontmatter.date}</h5>
+              <h5 className='text-sm text-white'>{post.frontmatter.author}</h5>
+              <h1 className='mt-4 text-center underline heading'>{post.frontmatter.title}</h1>
+            </div>
+              {/* <Img className='w-full mb-10' image={post.frontmatter.image} alt={post.frontmatter.title} /> */}
+            <div className='prose lg:prose-xl danger' dangerouslySetInnerHTML={{__html: post.html}}/>
           </div>
         </Layout>
     )
