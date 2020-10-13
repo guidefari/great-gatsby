@@ -16,10 +16,10 @@ function Header() {
           {[
             {
               route: `/blog`,
-              title: `Blog`,
+              title: `Words`,
             },
           ].map((link) => (
-            <Link key={link.title} to={link.route} className="inline-block ml-6 text-center no-underline hover:text-custom-yellow-500 link-transition" >
+            <Link key={link.title} to={link.route} className="inline-block ml-6 text-lg text-center no-underline hover:text-custom-yellow-500 link-transition" >
               {link.title}
             </Link>
           ))}
