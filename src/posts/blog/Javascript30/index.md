@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["TIL"]
 title: "Finishing up Javascript 30"
 summary: "An attempt to make a habit of finishing courses. A few notes on interesting bits & stuff thought's I'd love to bookmark"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 # Array Cardio Day 2

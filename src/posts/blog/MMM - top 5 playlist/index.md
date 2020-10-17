@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["playlist", "podcast"]
 title: "Playlist - top 5 top 5 top 5 "
 summary: "Me Myself & the Music Playlist - Sindiso, Captain Roddy & Guide share their top 5 tracks right now."
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 ### [Apple Music](https://music.apple.com/zw/playlist/top-5-top-5-top-5/pl.u-yZyVE6VTdoWr3go)

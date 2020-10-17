@@ -5,7 +5,7 @@ category: ["music"]
 title: "How to deliver curated playlists"
 summary: "This is how I share my playlists across multiple streaming services, with minimal effort, for free."
 image: "./norbert-buduczki.jpg"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 After compiling your playlist on your streaming platform of choice, distributing it is the next hurdle, and thanks to these services, it's not an impossible on to jump over. 

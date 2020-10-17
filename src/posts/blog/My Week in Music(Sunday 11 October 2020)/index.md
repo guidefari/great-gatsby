@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["music", "curated"]
 title: "My week in music (Sunday 11 October)"
 summary: "Courtesy of shuffle"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 I've mostly been shuffling through my main library, and that returned quite a mixed bag. With that said, it's mostly throwbacks.<br>

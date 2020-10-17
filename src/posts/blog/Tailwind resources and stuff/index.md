@@ -5,7 +5,7 @@ image: "./tailwind.jpg"
 category: ["web"]
 title: "Tailwind Resources"
 summary: "A bunch of sites/resources I constantly reach out to for inspiration when using tailwind, which is like all the time"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 

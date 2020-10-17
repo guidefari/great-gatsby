@@ -2,7 +2,7 @@
   "name": "goosebumps-collective",
   "description": "Freelance Web Development, Curated Music & more",
   "version": "1.1.0",
-  "author": "GT Fari <admin@goosebumps.co.zw>",
+  "author": "Guide Fari <admin@goosebumps.co.zw>",
   "dependencies": {
     "@tailwindcss/typography": "^0.1.3",
     "gatsby": "2.23.14",

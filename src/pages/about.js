@@ -20,7 +20,7 @@ const AboutPage = () =>
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col justify-center max-w-md md:w-1/2">
                 <div className="text-2xl font-black underline uppercase md:text-5xl font-circular-bold">About</div>
-                <div className="mt-4 text-xl">Built by: <a rel="noopener noreferrer" className=" link-transition about-link" href="https://twitter.com/txndai">GT Fari</a>. <br></br><br></br>
+                <div className="mt-4 text-xl">Built by: <a rel="noopener noreferrer" className=" link-transition about-link" href="https://twitter.com/txndai">Guide Fari</a>. <br></br><br></br>
                     Tech used: 
                     <ul>
                         <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://www.gatsbyjs.org/"> Gatsby</a></li>

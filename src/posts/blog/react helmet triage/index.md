@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["gatsby", "documentation"]
 title: "My social card struggle with React Helmet"
 summary: "A breakdown of the problem I've faced whilst trying to get my links to turn into sharing cards when shared on social media."
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 

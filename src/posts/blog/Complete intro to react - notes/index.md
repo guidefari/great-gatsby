@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["TIL", "Notes"]
 title: "Complete intro to react - notes"
 summary: "Notes from Frontend Masters course titled above, the course is presented by Brian Holt."
-author: "GT Fari"
+author: "Guide Fari"
 article: "false"
 ---
 I have a feeling this will be useful at some point.

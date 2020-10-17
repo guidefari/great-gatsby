@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["web", "music"]
 title: "Music for coding"
 summary: "Distraction-free(mostly) playlists, albums, & livesets that wont get in the way of concentrated work."
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 If you need to quickly reach out for music that's entertaining, but won't be a distracting whilst working, this is the place to find that. Playlists are in no particular order. the playlists with no curator credited are in-house curated.

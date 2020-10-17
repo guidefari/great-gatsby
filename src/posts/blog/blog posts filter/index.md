@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["documentation", "gatsby"]
 title: "Blog Posts Filter - How I made it work"
 summary: "A few snippets and steps on how I made the blog post filter work."
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 In attempt to make sifting through articles easier for the reader, I figured a filter would be just enough. The only issue is that all tutorials on how to filter gatsby(and react too? I don't remember if I looked for react specific tutorials, lol) blog posts, were the kind that would have me generate a separate page with tag lists, and that felt like too much. 

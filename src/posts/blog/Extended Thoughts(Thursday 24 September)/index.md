@@ -5,7 +5,7 @@ category: ["log", "UI"]
 title: "Extended Thoughts(Thursday 24 September)"
 summary: "Notes on Refactoring UI & more 🤷?"
 image: "./feature.jpg"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 ## Refactoring UI

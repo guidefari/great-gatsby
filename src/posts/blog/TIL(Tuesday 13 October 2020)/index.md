@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["TIL"]
 title: "TIL(Tuesday 13 October 2020)"
 summary: "Some code snippets"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 Twitter can be really useful at times, it's where I found [this article](https://blog.bhanuteja.dev/epic-react-javascript-you-need-to-know-for-react), titled **Javascript You Need To Know For React**.

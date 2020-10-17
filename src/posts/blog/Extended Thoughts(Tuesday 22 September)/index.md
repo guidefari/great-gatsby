@@ -5,7 +5,7 @@ category: ["log"]
 title: "Extended Thoughts(Tuesday 22 September)"
 summary: "Notes on Cal Newport's 'Deep Work', my 'Ambient' playlist, Frontend Happy Hour, Syntaxfm & more 🤷?"
 image: "./joshua-gresham.jpg"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 ## 04:44 - Context

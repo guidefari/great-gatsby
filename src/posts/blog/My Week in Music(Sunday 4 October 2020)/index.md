@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["music", "curated"]
 title: "My week in music (Sunday 4 October)"
 summary: "Highlights of tracks I jammed to this week"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 

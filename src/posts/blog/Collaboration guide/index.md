@@ -5,7 +5,7 @@ category: ["music"]
 title: "Collaboration Guide for Indie artists in Zim"
 summary: "A quick introduction on how to approach collaborations in Zimbabwe."
 image: "./feature.jpg"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 
