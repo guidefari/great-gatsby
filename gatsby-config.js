@@ -87,5 +87,11 @@ module.exports = {
         trackingId: "UA-175474036-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.goosebumps.co.zw`,
+      },
+    }
   ],
 };
