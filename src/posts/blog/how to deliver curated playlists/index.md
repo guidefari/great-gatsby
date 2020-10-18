@@ -4,7 +4,7 @@ date: "2020-08-16"
 category: ["music"]
 title: "How to deliver curated playlists"
 summary: "This is how I share my playlists across multiple streaming services, with minimal effort, for free."
-image: "./norbert-buduczki.jpg"
+image: "./feature.jpg"
 author: "Guide Fari"
 article: "true"
 ---

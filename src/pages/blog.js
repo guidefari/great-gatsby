@@ -61,7 +61,7 @@ function BlogPage  ({ data }) {
     <div className='flex flex-wrap -m-4'>
       {
         (catFilter ? filtered : data.posts.edges).map(post => (
-          <div key={post.node.id} className="w-full p-4 md:w-1/3">
+          <div key={post.node.id} className="w-full p-4 sm:w-1/2 lg:w-1/3">
             <PostCard 
                 category={post.node.frontmatter.category}
                 title={post.node.frontmatter.title}
