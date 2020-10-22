@@ -48,6 +48,14 @@ module.exports = {
         name: 'posts'
       }
     },
+    //images
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images'
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

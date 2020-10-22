@@ -1,8 +1,11 @@
+/* eslint react/prop-types: 0 */
 import React from 'react'
-import portrait from '../../static/img/portrait.jpeg'
+// import portrait from '../../static/img/portrait.jpeg'
 import {Link} from 'gatsby' 
+import GatsbyImage from 'gatsby-image'
 
-function About() {
+function About({image}) {
+    // console.log(image)
     return (
         <div className="max-w-6xl p-12 m-auto">
         <div className="flex flex-col md:flex-row">
@@ -25,7 +28,7 @@ function About() {
             <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
                 <div className="pattern">
                     <div className="z-10 max-w-md mt-6 ml-4 rounded-full shadow-2xl bg-secondary-gray-500">
-                        <img alt="Guide Fari" className="rounded-lg" src={portrait}></img>
+                        <GatsbyImage fluid={image} alt="portrait of Guide Fari" className="rounded-lg" />
                         <div className="p-10 rounded-lg bg-secondary-gray-500">
                             <blockquote>
                                 This site was born out of necessity, mainly as a site for me to practice what I learn on the

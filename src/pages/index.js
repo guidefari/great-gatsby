@@ -13,7 +13,7 @@ import About from "../components/about";
 
 
 function IndexPage({data}) {
-  console.log(data.portfolio.edges)
+  console.log(data.portrait.childImageSharp)
   return (
     <HomeLayout className='overflow-x-hidden'>
       {/* Index page SEO component & its props */}
@@ -41,18 +41,18 @@ function IndexPage({data}) {
         </div>
         <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
             {data.portfolio.edges.map(port => (
-            <PortfolioCard
-              key={port.node.id}
-              external={port.node.frontmatter.external}
-              image={port.node.frontmatter.image.childImageSharp.fluid}
-              tech={port.node.frontmatter.tech}
-              title={port.node.frontmatter.title}
-              html={port.node.html}
-            />))} 
+              <PortfolioCard
+                key={port.node.id}
+                external={port.node.frontmatter.external}
+                image={port.node.frontmatter.image.childImageSharp.fluid}
+                tech={port.node.frontmatter.tech}
+                title={port.node.frontmatter.title}
+                html={port.node.html}
+              />))}
         </Feature>
-        <About/>
+        <About image={data.portrait.childImageSharp.fluid}/>
         <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
-            <PlaylistCard data={data.playlists.edges}/> 
+            <PlaylistCard  data={data.playlists.edges}/> 
         </Feature>
         <Feature bigHead="Featured Mixes" smallHead="Curated tunes">
             <MixCard data={data.mixes.edges}/> 
@@ -127,6 +127,20 @@ export const Query = graphql`
           external
           DJ
         }
+      }
+    }
+  }
+  portrait: file(relativePath: {eq: "portrait.jpeg"}) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  goose: file(relativePath: {eq: "goose.png"}) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
       }
     }
   }
