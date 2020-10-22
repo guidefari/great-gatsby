@@ -22,7 +22,8 @@ const  portfolioCard = ({ data }) => {
         </div>
         <div className="flex flex-col justify-center w-48 h-56 m-auto align-middle md:w-4/12 md:h-auto">
           <a target='_blank' rel="noopener noreferrer" href={item.node.frontmatter.external}>
-            <img alt={item.node.frontmatter.logo} src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  />
+            {/* <img alt={item.node.frontmatter.logo} src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  /> */}
+            <GatsbyImage alt={item.node.frontmatter.image.childImageSharp.fluid.src} src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  />
           </a>
         </div>
       </div>
