@@ -13,7 +13,7 @@ import About from "../components/about";
 
 
 function IndexPage({data}) {
-  console.log(data)
+  console.log(data.portfolio.edges)
   return (
     <HomeLayout className='overflow-x-hidden'>
       {/* Index page SEO component & its props */}
@@ -40,7 +40,15 @@ function IndexPage({data}) {
           <h3 className="inline-block p-3 mb-4 text-xl font-bold rounded-md bg-custom-yellow-500 text-custom-gray-bg"> Web Development & Music </h3>
         </div>
         <Feature bigHead="Featured Web Projects" smallHead="Portfolio">
-            <PortfolioCard data={data.portfolio.edges}/> 
+            {data.portfolio.edges.map(port => (
+            <PortfolioCard
+              key={port.node.id}
+              external={port.node.frontmatter.external}
+              image={port.node.frontmatter.image.childImageSharp.fluid}
+              tech={port.node.frontmatter.tech}
+              title={port.node.frontmatter.title}
+              html={port.node.html}
+            />))} 
         </Feature>
         <About/>
         <Feature bigHead="Featured Playlists" smallHead="Curated tunes">
