@@ -82,6 +82,13 @@ export const Query = graphql`
           path
           title
           logo
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           external
           showInProjects
           tech

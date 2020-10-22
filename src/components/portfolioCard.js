@@ -1,11 +1,10 @@
 /* eslint react/prop-types: 0 */
 import React from 'react'
-// import {  graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 const  portfolioCard = ({ data }) => {
     console.log(data)
-     return (
+    return (
       <div  className="flex px-4 mb-4 ">
       {data.map(item => (
         <div key={item.node.id} className="flex flex-col-reverse justify-between w-full h-full p-4 mx-6 rounded-lg shadow-lg bg-custom-gray-seconday card md:min-w-3xl md:flex-row md:max-w-3xl md:p-12">
@@ -22,8 +21,8 @@ const  portfolioCard = ({ data }) => {
             </div>
         </div>
         <div className="flex flex-col justify-center w-48 h-56 m-auto align-middle md:w-4/12 md:h-auto">
-          <a rel="noopener noreferrer" href={item.node.frontmatter.external}>
-            <img src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  />
+          <a target='_blank' rel="noopener noreferrer" href={item.node.frontmatter.external}>
+            <img alt={item.node.frontmatter.logo} src={item.node.frontmatter.logo} className="m-auto max-h-xs md:w-auto"  />
           </a>
         </div>
       </div>

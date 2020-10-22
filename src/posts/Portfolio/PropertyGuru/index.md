@@ -2,6 +2,7 @@
 path: '/5'
 title: 'Property Guru'
 logo: './img/portfolio-logos/ProperyGuru.png'
+image: './ProperyGuru.png'
 external: 'https://propertyguru.co.zw/'
 tech:
   - Wordpress

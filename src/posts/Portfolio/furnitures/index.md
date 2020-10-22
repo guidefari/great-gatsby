@@ -2,6 +2,7 @@
 path: '/3'
 title: 'Furnitures 2 Suit'
 logo: './img/portfolio-logos/furniture-logo.png'
+image: './furniture.png'
 external: 'https://furnitures2suit.uk/'
 tech:
   - Wordpress

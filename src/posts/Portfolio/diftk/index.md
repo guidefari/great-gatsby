@@ -2,6 +2,7 @@
 path: '/2'
 title: 'Do It 4 The Kids'
 logo: './img/portfolio-logos/diftk.png'
+image: './diftk.png'
 external: 'https://doit4thekidz.org/'
 tech:
   - NextJS

@@ -2,6 +2,7 @@
 path: '/4'
 title: 'Mineazy'
 logo: './img/portfolio-logos/Mineazy.png'
+image: './Mineazy.png'
 external: 'https://mineazyminingsolutions.co.zw/'
 tech:
   - HTML
