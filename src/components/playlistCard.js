@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import LilGoose from './icons/lilGoose';
 
 const playlistCard = ({data}) => {
     console.log(data)
@@ -10,7 +11,7 @@ const playlistCard = ({data}) => {
         <div className="flex items-center mb-3">
           <div
             className="inline-flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-white bg-yellow-400 rounded-full">
-            <img src="./goose.png" alt="playlist logo"></img>
+              <LilGoose/>
           </div>
           <h2 className="text-lg font-medium text-custom-olive-500 title-font">{item.node.frontmatter.title}</h2>
         </div>
