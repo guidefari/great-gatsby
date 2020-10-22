@@ -1,6 +1,8 @@
 /* eslint react/prop-types: 0 */
 import React from 'react'
 import PropTypes from 'prop-types';
+import GatsbyImage from 'gatsby-image';
+
 
 const  portfolioCard = ({ data }) => {
     console.log(data)
