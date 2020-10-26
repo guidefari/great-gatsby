@@ -4,7 +4,7 @@ date: "2020-10-25"
 image: "./feature.jpg"
 category: ["music", "curated"]
 title: "My week in music (Sunday 25 October)"
-summary: "Some pop, r&b, deep dubs, hip hop, & African Electronic!"
+summary: "A whole lot of dnb & funk, sprinkled with some alternative hip hop, r&b."
 author: "Guide Fari"
 article: "true"
 ---
@@ -53,6 +53,7 @@ The new Machinedrum album, with tracks spanning across quite a number of genres.
 ## Omar Apollo [🔗](https://open.spotify.com/track/18eZc40EneLmStYEy3cLBP?si=EV7zTrcCSemUWAyYYsOZQQ)
 `r&b` `pop` <br>
 ![Omar Apollo](https://i.scdn.co/image/ab67616d00001e02737a31f300f76a6fab4f957f)
+Shoutout to the homie Sindiso for the plug here.
 
 ## Alfa Mist, Emmavie - Fly Away [🔗](https://open.spotify.com/track/2VJnZ0oDn1mEzjNJrOfo3t?si=C5RLEf7ERVGzk3CW3jJckw)
 `alternative r&b` `hint of lofi`  <br>
