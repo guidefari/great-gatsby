@@ -28,6 +28,9 @@ h1 {
   .about-link:hover{@apply scale-105 bg-custom-yellow-400;}
   .heading{font-size: 5rem; font-weight: bold;}
 
+  /* centering embedded tweets */
+  .twitter-tweet-rendered{margin: 0 auto;}
+
   
   /*! purgecss end ignore */
 @tailwind utilities;
