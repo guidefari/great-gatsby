@@ -12,7 +12,7 @@ article: "true"
  [Obsidian](https://obsidian.md/) is the main markdown editor, for desktop. files are saved as plain old markdown on your localhost, which makes it easy to move notes around between services & devices.
  
  ## dropbox - sync
-Synced into a dropbox folder, which makes the notes available on the go.simple
+the Obsidian folder lives in my dropbox, which makes the notes available on the go. simple :)
 
 ## mobile & quick capture
 Mobile editing is where it kinda sucks, they're accessible & editable within dropbox, but I can't download notes for offline use on a free dropbox account. So mobile editing is ideal for adding onto pre-existing notes, when I'm in a somewhat settled environment.
