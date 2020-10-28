@@ -14,7 +14,7 @@ article: "true"
  ## dropbox - sync
 Synced into a dropbox folder, which makes the notes available on the go.simple
 
-## Mobile & quick capture
+## mobile & quick capture
 Mobile editing is where it kinda sucks, they're accessible & editable within dropbox, but I can't download notes for offline use on a free dropbox account. So mobile editing is ideal for adding onto pre-existing notes, when I'm in a somewhat settled environment.
 
 Quick capture on mobile is handled by [Simplenote](https://simplenote.com/). the notes are cloud synced, and it's usable when offline too, and the app launches like a rocket, which is ideal when I need to write down a million dollar idea before it disappears from my head.
