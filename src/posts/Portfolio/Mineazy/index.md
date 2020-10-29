@@ -8,7 +8,7 @@ tech:
   - HTML
   - CSS
   - Landing Site
-showInProjects: true
+showInProjects: false
 ---
 
 Simple landing site that was done in order to get Mineazy some online presence. The client wanted the site to look as similar to the company profile document as possible, so don't judge the design too harshly, lol.
