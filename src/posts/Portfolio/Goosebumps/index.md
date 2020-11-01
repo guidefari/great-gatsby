@@ -8,7 +8,7 @@ tech:
   - Figma
   - TailwindCSS
   - Gatsby
-showInProjects: true
+showInProjects: false
 ---
 
 The never-ending project. From design sketches on Figma, to what you see here now.
