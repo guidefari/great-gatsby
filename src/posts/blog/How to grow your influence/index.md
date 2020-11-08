@@ -5,7 +5,7 @@ image: "./feature.jpg"
 category: ["notes"]
 title: "How to grow your influence by thinking in public"
 summary: "Some notes & annotations from the `Hundreds of ways` podcast episode with Tom Critchlow"
-author: "GT Fari"
+author: "Guide Fari"
 article: "true"
 ---
 
