@@ -22,4 +22,4 @@ article: "true"
 12. [Tails/Devdojo](https://devdojo.com/tailwindcss/components) - more components
 13. [TailwindUI](https://tailwindui.com/components) - HTML components, courtesy of Steve Schoger & Adam Wathan. Some free components here, but mostly paid stuff.
 
-> note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.
+> ~~ note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.~~
