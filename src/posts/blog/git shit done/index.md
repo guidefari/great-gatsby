@@ -8,3 +8,14 @@ summary: "Git commands that I always have to google"
 author: "Guide Fari"
 article: "false"
 ---
+
+# delete branch
+// delete branch locally
+`git branch -d localBranchName`
+
+// delete branch remotely
+`git push origin --delete remoteBranchName`
+
+[source](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
+
+---

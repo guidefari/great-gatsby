@@ -31,6 +31,7 @@ article: "true"
 > inquiry vs insight
 
 - where inquiry is coming from a place of asking questions, & insight, well, self-explanatory
+- Tom Critchlow on [insight vs inquiry](https://tomcritchlow.com/2020/08/19/little-futures-2/).
 - A great example of inquiry vs insight I've just found, is the article [Building an antilibrary: the power of unread books](https://nesslabs.com/antilibrary), where Anne-Laure says:
 	>Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.
 	
