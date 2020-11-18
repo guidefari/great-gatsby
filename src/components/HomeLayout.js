@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-
+import Footer from './footer'
 import Header from "./header";
 
 
@@ -13,15 +13,7 @@ function HomeLayout({ children }) {
         {children}
       </main>
 
-      <footer className="text-gray-700 body-font">
-        <div className="bg-custom-gray-seconday">
-          <div className="container flex flex-col-reverse px-5 py-4 mx-auto justify-evenly sm:flex-row">
-              <a href="https://linktr.ee/goosebumps" className="ml-1 text-gray-100 hover:bg-yellow-300 hover:text-custom-gray-bg" target="_blank"
-                rel="noopener noreferrer">Social Links</a>
-          </div>
-          
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }
