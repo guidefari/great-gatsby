@@ -107,3 +107,23 @@ progress.addEventListener('mousemove', (e) => mousedown ? scrub(e) : false);
 ```
 
 That's all for now :)
+
+# Event capture, Propagation, Bubbling and once
+
+Capture -> Target -> Bubble
+
+The capture is top down, while bubbling is the opposite. 
+
+`e.stopPropagation()` stops the event from bubbling up.
+
+## once
+
+```js
+button.addEventListener('click', () => {
+    console.log('Click!!!');
+  }, {
+    once: true
+  });
+```
+
+unbinds the event listener after the first event (the click in this case). In other words, as implied, it only runs once.
