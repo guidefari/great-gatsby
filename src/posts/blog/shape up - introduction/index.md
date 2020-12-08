@@ -8,6 +8,13 @@ summary: "Ryan Singer shares how the Basecamp team builds software"
 author: "Guide Fari"
 article: "true"
 ---
+---
+
+1. Shape up notes - introduction (You're here)
+2. [Shape Up - The shaping process](https://www.goosebumps.co.zw/shape-up-notes-shaping) 
+
+---
+
 Get the PDF for free [here](https://basecamp.com/shapeup). Before reading the book, I listened to the Full Stack Radio [episode](http://www.fullstackradio.com/131), where Adam had a chat with Ryan(the author of Shape up) about the main ideas of shape up, which I felt was a great introduction.
 
 I highlighted a decent chunk while reading the book. It's mostly those ideas I'll be interrogating.
