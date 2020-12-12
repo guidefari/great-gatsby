@@ -17,7 +17,7 @@ h1 {
   .card{
     min-width: 22rem;
   }
-  .link-transition{@apply transition duration-300 ease-out transform ;}
+  /* .link-transition{@apply transition duration-300 ease-out transform ;} */
 
   /* global styling for the 'Stream' & 'Read full' links  */
   .link-colors{@apply text-custom-yellow-500 ;}
