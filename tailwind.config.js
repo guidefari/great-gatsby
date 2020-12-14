@@ -4,7 +4,6 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
-
     typography: {
       extend:{
         DEFAULT: {
@@ -42,7 +41,7 @@ module.exports = {
             },
           },
         },
-      }
+      },
     },
 
     screens: {

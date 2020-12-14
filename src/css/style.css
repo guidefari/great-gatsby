@@ -17,6 +17,7 @@ h1 {
   .card{
     min-width: 22rem;
   }
+  /* why isnt the line below working? */
   /* .link-transition{@apply transition duration-300 ease-out transform ;} */
 
   /* global styling for the 'Stream' & 'Read full' links  */
@@ -30,6 +31,7 @@ h1 {
 
   /* centering embedded tweets */
   .twitter-tweet-rendered{margin: 0 auto;}
+
 
   
   /*! purgecss end ignore */
