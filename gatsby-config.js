@@ -56,18 +56,18 @@ module.exports = {
         name: 'images'
       }
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Goosebumps Collective`,
-        short_name: `Goosebumps`,
-        start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.gray["700"],
-        display: `minimal-ui`,
-        icon: `src/images/gb.png`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Goosebumps Collective`,
+    //     short_name: `Goosebumps`,
+    //     start_url: `/`,
+    //     background_color: fullConfig.theme.colors.white,
+    //     theme_color: fullConfig.theme.colors.gray["700"],
+    //     display: `minimal-ui`,
+    //     icon: `src/images/gb.png`,
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
