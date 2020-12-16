@@ -10,8 +10,9 @@ article: "true"
 ---
 ---
 
-1. [Shape up notes - introduction](https://goosebumps.co.zw/shape-up-notes-introduction)
+1. [Shape Up notes - introduction](https://goosebumps.co.zw/shape-up-notes-introduction)
 2. Shape Up - The shaping process (You're here)
+3. [Shape Up - writing the pitch](https://goosebumps.co.zw//shape-up-notes-writing-pitch)
 
 ---
 
