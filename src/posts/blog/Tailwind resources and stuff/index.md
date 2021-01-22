@@ -21,5 +21,5 @@ article: "true"
 11. [Kitwind](https://kitwind.io/products/kometa/components) - A whole bunch of components(130+), written as HTML, Vue, & React😎
 12. [Tails/Devdojo](https://devdojo.com/tailwindcss/components) - more components
 13. [TailwindUI](https://tailwindui.com/components) - HTML components, courtesy of Steve Schoger & Adam Wathan. Some free components here, but mostly paid stuff.
-
-> ~~ note to self: make a default tailwind config file. perhaps a boilerplate for Nextjs & Gatsby, that's suited to my needs.~~
+14. [Daisy UI](https://github.com/saadeghi/daisyui)
+15. [StormUIKit](https://stormuikit.com/)
