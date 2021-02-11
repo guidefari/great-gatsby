@@ -95,3 +95,5 @@ These can really slow development down, it's essentially the pieces(anything fro
 
 ---
 
+## Further reading
+1. [Shape Up vs Scrum: 6 Months to 6 Weeks – How We Cut Our Dev Cycle 75% | Process Street](https://www.process.st/shape-up/) - does a great job at comparing the two frameworks, and is an excellent summary of the concepts introduced in Shape up.
