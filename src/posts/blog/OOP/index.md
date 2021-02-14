@@ -2,8 +2,8 @@
 path: "/oops"
 date: "2021-02-10"
 image: "./feature.jpg"
-category: ["notes"]
-title: "Back to OOP basics"
+category: ["notes", "oop"]
+title: "OOP basics"
 summary: "A summary of some object orientation notes"
 author: "Guide Fari"
 article: "true"
