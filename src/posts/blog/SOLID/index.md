@@ -217,4 +217,4 @@ public class CrazyPerson implements BearPetter {
 
 ### further reading
 - too many code snippets to paste here. [src](https://wanago.io/2020/02/03/applying-solid-principles-to-your-typescript-code/) goes through it in a Typescript context
-- [video explanation](https://youtu.be/9oHY5TllWaU) by Kyle. done in Javascript
+- [video explanation](https://youtu.be/9oHY5TllWaU) by Kyle. done in Javascript. implementation doesn't make too much sense for me(just haven't written much object oriented code yet), but the concept is explained well.
