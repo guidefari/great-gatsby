@@ -101,7 +101,8 @@ public class SuperCoolGuitarWithFlames extends Guitar {
 ```
 
 ### further reading
-the code snippets & explanations on the *open-closed principle* from this [src](https://www.baeldung.com/solid-principles) have been the simplest to understand so far.
+- the code snippets & explanations on the *open-closed principle* from this [src](https://www.baeldung.com/solid-principles) have been the simplest to understand so far.
+- [Reflectoring.io](https://reflectoring.io/open-closed-principle-explained/) - The Open-Closed Principle Explained
 
 # Liskov substitution principle
 > if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desirable properties of the program (correctness, task performed, etc.). - [src](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
