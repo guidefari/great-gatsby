@@ -65,6 +65,9 @@ there are two kinds:
 
 In practice, this is usually made feasible by making **Getting Methods**(retrieving information) & **Setting Methods**(changing information)
 
+## Access Modifiers
+- [Typescript docs](https://www.typescriptlang.org/docs/handbook/classes.html) explains it well, with easy to follow code snippets.
+
 # References
 1. [Intro to Object Oriented Programming - Crash Course (youtube video)](https://www.youtube.com/watch?v=SiBw7os-_zI&list=WL&index=6&ab_channel=freeCodeCamp.org)
 2. [Learning Object-Oriented Programming Explore and crack the OOP code in Python, JavaScript, and C by Gaston C. Hillar (book)](https://www.amazon.com/Learning-Object-Oriented-Programming-Explore-JavaScript/dp/1785289632)
