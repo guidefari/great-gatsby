@@ -2,7 +2,7 @@
 path: "/consuming-api-in-your-web-app"
 date: "2021-04-25"
 image: "./feature.jpg"
-category: ["web", "notes"]
+category: ["typescript", "notes", "api"]
 title: "Consuming an API in your web app"
 summary: "Some notes on a pattern I've seen when writing code that relies on data from an API"
 author: "Guide Fari"
