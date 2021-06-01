@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-Marketing website done for a company that supplies equipment, spares and engineering services.
+Marketing website done for a company that supplies equipment, spares and engineering services. The aim is to give visitors of the site a simple & efficient overview of what the company offers.
