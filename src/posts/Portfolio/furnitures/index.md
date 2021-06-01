@@ -1,14 +1,14 @@
 ---
 path: '/3'
-title: 'Furnitures 2 Suit'
+title: 'BHE Technical Services'
 logo: './img/portfolio-logos/furniture-logo.png'
 image: './furniture.png'
-external: 'https://furnitures2suit.uk/'
+external: 'https://bts-stoic-davinci.netlify.app/'
 tech:
-  - Wordpress
-  - CSS
+  - NextJS
+  - GraphQL
   - E-Commerce
-showInProjects: true
+showInProjects: false
 ---
 
 This project's main task was to redesign an old site, to give it a more modern & refreshing look. A lot more custom CSS than usual was used, to get the site looking exactly how the client wanted.

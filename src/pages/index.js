@@ -58,7 +58,7 @@ function IndexPage({data}) {
         <h1 className="mb-2 text-2xl font-bold text-center md:text-3xl">
           Hire <span className="text-yellow-600">Me</span>
         </h1>
-        <p className="pb-6 text-center ">I am available for freelance/contract work, & full time work.<br/> Send an <a href="mailto:admin@goosebumps.co.zw"><span className="text-yellow-500 hover:text-yellow-600">e-mail</span></a> and I&#39;ll get back to you within a day or two.</p>
+        <p className="pb-6 text-center ">I am available for freelance/contract work.<br/> Send an <a href="mailto:admin@goosebumps.co.zw"><span className="text-yellow-500 hover:text-yellow-600">e-mail</span></a> and I&#39;ll get back to you within a day or two.</p>
         <p className="pb-6 text-center ">If you prefer to use a contact form, <Link to='/contact' className="text-yellow-500 hover:text-yellow-600">here it is</Link>.</p>
       </div>
     </section>
