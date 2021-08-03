@@ -1,3 +1,9 @@
 [build]
   command = "npm run build"
   publish = "public/"
+
+[[redirects]]
+  from = "https://goosebumps.co.zw/notes/*"
+  to = "https://publish.obsidian.md/serve?url=goosebumps.co.zw/notes/:splat"
+  status = 200
+  force = true
