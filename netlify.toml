@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "https://goosebumps.co.zw/notes/*"
-  to = "https://publish.obsidian.md/serve?url=goosebumps.co.zw/notes/:splat"
+  to = "https://publish.obsidian.md/guide/:splat"
   status = 200
   force = true
