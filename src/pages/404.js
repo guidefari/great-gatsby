@@ -17,9 +17,11 @@ function NotFoundPage() {
           className="block w-1/2 mx-auto"
           src={abductionIllustration}
         />
-        <h2 className="inline-block p-3 my-8 text-2xl font-bold bg-yellow-400">
-          Looks like this page is a ghost that got abducted by aliens...
-        </h2>
+        <div className="container flex justify-center">
+          <h2 className="inline-block p-3 my-8 text-2xl font-bold text-black bg-yellow-400">
+            Looks like this page is a ghost that got abducted by a goose...
+          </h2>
+        </div>
       </div>
     </Layout>
   );
