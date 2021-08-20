@@ -21,7 +21,17 @@ function About({image}) {
                         <strike><li><a rel="noopener noreferrer" className="about-link link-transition" href="https://parceljs.org/">ParcelJS</a></li></strike>
                         <li><a rel="noopener noreferrer" className="about-link link-transition" href="https://www.netlify.com/">Netlify</a></li>
                     </ul> <br></br><br></br>
-                    <p>Check out the <Link className="about-link link-transition" to="/blog">&apos;not blog&apos;</Link> for extended thoughts on this & that.</p><br/>
+                    <p>Check out the <Link className="about-link link-transition" to="/blog">&apos;not blog&apos;</Link> for extended thoughts on this & that.</p>
+                    <p>
+                        Most of my writing is now being captured in my{' '}
+                        <a className="about-link link-transition" href="https://publish.obsidian.md/guide" target='_blank' rel='noreferrer'>
+                            notebook
+                            <svg xmlns="http://www.w3.org/2000/svg" className="inline w-6 h-6 mb-1 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>.
+                    </p>
+                    <br />
                     <p>This site is open source😎 You can find the repo <a rel="noopener noreferrer" className="about-link link-transition" href='https://github.com/txndai/great-gatsby'>here</a></p>
                 </div>
             </div>
