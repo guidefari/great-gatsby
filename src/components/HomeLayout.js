@@ -1,8 +1,7 @@
-import PropTypes from "prop-types";
-import React from "react";
-import Footer from './footer'
-import Header from "./header";
-
+import PropTypes from 'prop-types';
+import React from 'react';
+import Footer from './footer';
+import Header from './header';
 
 function HomeLayout({ children }) {
   return (
@@ -13,7 +12,7 @@ function HomeLayout({ children }) {
         {children}
       </main>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
