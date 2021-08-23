@@ -23,3 +23,9 @@ I can then open Simplenote in the browser(desktop) & copy paste into the dropbox
 
 ## plus side
 The plus side to this more 'manual' system is it allows me to regularly review & interact with my quick capture notes, as a somewhat forgetful person, it helps keep some thoughts fresh in my mind.
+
+---
+
+# Update
+
+I've since started using paid products from obsidian, namely [publish](https://obsidian.md/publish) & [sync](https://obsidian.md/sync). that way I have all my notes in one place, even on the go(using [obsidian mobile](https://obsidian.md/mobile)), leaving dropbox as just a secondary backup.
