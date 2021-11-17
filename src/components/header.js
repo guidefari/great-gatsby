@@ -1,6 +1,6 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import gbLogo from '../images/gb.png';
+import { Link } from "gatsby"
+import React from "react"
+import gbLogo from "../images/gb.png"
 
 function Header() {
   return (
@@ -22,7 +22,7 @@ function Header() {
               route: `/blog`,
               title: `not blog`,
             },
-          ].map((link) => (
+          ].map(link => (
             <Link
               key={link.title}
               to={link.route}
@@ -33,7 +33,7 @@ function Header() {
           ))}
           <a
             className="inline-block ml-6 text-lg text-center no-underline hover:text-custom-yellow-500 link-transition"
-            href="https://publish.obsidian.md/guide"
+            href="https://guidefari.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,7 +56,7 @@ function Header() {
         </nav>
       </div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
